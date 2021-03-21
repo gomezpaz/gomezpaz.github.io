@@ -2,8 +2,16 @@
 layout: page
 ---
 
-<div style="display:flex;align-items: center;justify-content: center">
-  <img style="width: 130%; height: auto" src="assets/images/smaug-lateral-1.jpg">
+<!--Import custom Roboto font for landing_page title-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+
+<!--Custom picture with description. -->
+<!--It needs to be centered and a little bit wider if opened from a smartphone-->
+<div  style="position: relative; display:flex;align-items: center;justify-content: center; vertical-align: middle">
+  <img style="position: relative; width: 130%; height: auto" src="assets/images/smaug-lateral-1.jpg">
+  <p class="landing_title" style="top: 24%; font-weight: 700">EVERY DAY</p>
+  <p class="landing_title" style="top: 36%; font-weight: 100">NEW DOTS TO CONNECT</p>
 </div>
 
 {%- assign _page_articles_data_source = page.articles.data_source | default: layout.articles.data_source -%}

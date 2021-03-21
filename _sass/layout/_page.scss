@@ -5,6 +5,23 @@ html,
   height: 100%;
 }
 
+
+.landing_title {
+  position:absolute; 
+  margin:0px; 
+  text-align:center;
+  color: white; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 6vw;
+}
+
+// Set max font size for big desktop screens so that it stops scaling when image does
+@media screen and (min-width: 1000px) {
+  .landing_title {
+     font-size: 60px;
+  }
+}
+
 .layout--page {
   &.layout--page--sidebar {
     .page__viewport,
