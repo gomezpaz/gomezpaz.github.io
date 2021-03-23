@@ -6,7 +6,7 @@ html,
 }
 
 
-.landing_title {
+.landing_slogan {
   position:absolute; 
   margin:0px; 
   text-align:center;
@@ -17,7 +17,7 @@ html,
 
 // Set max font size for big desktop screens so that it stops scaling when image does
 @media screen and (min-width: 1000px) {
-  .landing_title {
+  .landing_slogan {
      font-size: 60px;
   }
 }

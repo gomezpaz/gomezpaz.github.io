@@ -34,8 +34,8 @@ timezone: AR # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones 
 ## => Author and Social
 ##############################
 author:
-  type      : # "person" (default), "organization"
-  name      : Your Name
+  type      : "person" # "person" (default), "organization"
+  name      : Santiago Gomez Paz
   url       :
   avatar    : # path or url of avatar image (square)
   bio       : I come from Mars
