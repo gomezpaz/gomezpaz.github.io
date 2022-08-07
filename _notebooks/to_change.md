@@ -1,0 +1,1 @@
+div.output_subarea { max-width: calc(100%); }
