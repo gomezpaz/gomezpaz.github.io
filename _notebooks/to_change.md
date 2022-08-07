@@ -1,8 +1,6 @@
 div.output_subarea { max-width: calc(100%); }
 
-
-padding en div.cell and body
-
+padding a 0 en div.cell and body
 
 delete
 /* body {
@@ -18,6 +16,10 @@ delete
   padding: 8px;
 } */
 
+
+
+
+?? 
 /* h1,
 .h1 {
   font-size: 33px;
@@ -42,3 +44,23 @@ h6,
 .h6 {
   font-size: 12px;
 } */
+
+
+
+title example
+
+---
+title: Strong rally for tech in Q3
+tags: TeXt
+article_header:
+  type: cover
+  image:
+    src: /screenshot.jpg
+key: 2022-08-05-q3-oxygen
+tags: markets
+---
+
+
+
+convert by using:
+- jupyter nbconvert --to html --template classic 2020-09-12-test2.ipynb 
