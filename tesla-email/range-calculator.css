@@ -1666,7 +1666,7 @@
 #speed-70-up:checked ~ #temp-40-up:checked ~ #temp-control:checked ~ #wheel-21:checked ~ .showroom .model-plaid-plus:after { content:'271'; }
 
 /* CONFIGURATOR - RANGE CALCULATOR - SPEED */
-.speed-up, .temp-up { background-image:url('https://nivenranchhod.github.io/portfolio/tesla-range-calculator/images/up.png'); background-repeat:no-repeat; background-position:0; width:22px; height:16px; display:block; margin-left:5px; }
+.speed-up, .temp-up { background-image:url('https://nivenranchhod.github.io/portfolio/tesla-range-calculator/images/down.png'); background-repeat:no-repeat; background-position:0; width:22px; height:16px; display:block; margin-left:5px; }
 .speed-down, .temp-down { background-image:url('https://nivenranchhod.github.io/portfolio/tesla-range-calculator/images/down.png'); background-repeat:no-repeat; background-position:0; width:22px; height:16px; display:block; margin-left:5px; }
 .speed-up:hover, .temp-up:hover { -webkit-animation:bounce-up 1.5s infinite; animation:bounce-up 1.5s infinite; }
 .speed-down:hover, .temp-down:hover { -webkit-animation:bounce-down 1.5s infinite; animation:bounce-down 1.5s infinite; }
