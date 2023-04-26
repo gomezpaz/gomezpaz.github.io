@@ -33,6 +33,10 @@
     height: 38px;
 }
 
+.digit::after {
+    content: "santi"
+}
+
 .digit-000001 {
     --dp: 0.01;
     background-position: 0 calc(var(--digit-height) / var(--dp) * (((((var(--item1price) + var(--item2price))*var(--discount-applied)) / var(--dp)*0.1 - 0.49999) *var(--s)/var(--s) * var(--dp)/0.1) + ((((var(--item1price) + var(--item2price))*var(--discount-applied)) / var(--dp) - 0.49999) *var(--s)/var(--s) * var(--dp))));
