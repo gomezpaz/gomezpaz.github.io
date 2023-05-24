@@ -1,0 +1,64 @@
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    font-family: sans-serif;
+}
+
+#toggle {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+
+:root {
+    --item1price: 0.12;
+    --item2price: 453.13;
+    --discount-applied: 0.9;
+    --s: 4.9406564584124654e-324;
+    --digit-height: -48px;
+    --digits-image: url('https://i.postimg.cc/R0tY91X9/digits.png');
+}
+
+#toggle:checked~.digit {
+    --item2price: 12.13;
+}
+
+.digit {
+    background-image: var(--digits-image);
+    width: 26px;
+    height: 38px;
+}
+
+.digit-000001 {
+    --dp: 0.01;
+    background-position: 0 calc(var(--digit-height) / var(--dp) * (((((var(--item1price) + var(--item2price))*var(--discount-applied)) / var(--dp)*0.1 - 0.49999) *var(--s)/var(--s) * var(--dp)/0.1) + ((((var(--item1price) + var(--item2price))*var(--discount-applied)) / var(--dp) - 0.49999) *var(--s)/var(--s) * var(--dp))));
+}
+
+.digit-000010 {
+    --dp: 0.1;
+    background-position: 0 calc(var(--digit-height) / var(--dp) * (((((var(--item1price) + var(--item2price))*var(--discount-applied)) / var(--dp)*0.1 - 0.49999) *var(--s)/var(--s) * var(--dp)/0.1) + ((((var(--item1price) + var(--item2price))*var(--discount-applied)) / var(--dp) - 0.49999) *var(--s)/var(--s) * var(--dp))));
+}
+
+.digit-000100 {
+    --dp: 1;
+    background-position: 0 calc(var(--digit-height) / var(--dp) * (((((var(--item1price) + var(--item2price))*var(--discount-applied)) / var(--dp)*0.1 - 0.49999) *var(--s)/var(--s) * var(--dp)/0.1) + ((((var(--item1price) + var(--item2price))*var(--discount-applied)) / var(--dp) - 0.49999) *var(--s)/var(--s) * var(--dp))));
+}
+
+.digit-001000 {
+    --dp: 10;
+    background-position: 0 calc(var(--digit-height) / var(--dp) * (((((var(--item1price) + var(--item2price))*var(--discount-applied)) / var(--dp)*0.1 - 0.49999) *var(--s)/var(--s) * var(--dp)/0.1) + ((((var(--item1price) + var(--item2price))*var(--discount-applied)) / var(--dp) - 0.49999) *var(--s)/var(--s) * var(--dp))));
+}
+
+.digit-010000 {
+    --dp: 100;
+    background-position: 0 calc(var(--digit-height) / var(--dp) * (((((var(--item1price) + var(--item2price))*var(--discount-applied)) / var(--dp)*0.1 - 0.49999) *var(--s)/var(--s) * var(--dp)/0.1) + ((((var(--item1price) + var(--item2price))*var(--discount-applied)) / var(--dp) - 0.49999) *var(--s)/var(--s) * var(--dp))));
+}
+
+.digit-100000 {
+    --dp: 1000;
+    background-position: 0 calc(var(--digit-height) / var(--dp) * (((((var(--item1price) + var(--item2price))*var(--discount-applied)) / var(--dp)*0.1 - 0.49999) *var(--s)/var(--s) * var(--dp)/0.1) + ((((var(--item1price) + var(--item2price))*var(--discount-applied)) / var(--dp) - 0.49999) *var(--s)/var(--s) * var(--dp))));
+}
