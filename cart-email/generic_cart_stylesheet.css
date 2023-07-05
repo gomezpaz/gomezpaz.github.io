@@ -1,0 +1,1301 @@
+.zzztypography {
+    font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
+}
+
+.widget div,
+.widget label {
+    font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
+}
+
+.zzzpay-now-btn-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1A73E8;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: .15px;
+    cursor: pointer;
+    height: 50px;
+    margin: 0 18px
+}
+
+.zzzpay-now-btn-container:hover {
+    box-shadow: rgba(99, 99, 99, .2) 0 3px 12px 0;
+    background-color: #1F65CA
+}
+
+.zzzicon-zaymo {
+    width: 8px;
+    height: 8px;
+    background-size: 8px 8px;
+    background-image: url(https://i.postimg.cc/TPsz48wF/Logo.png);
+    background-repeat: no-repeat;
+    margin-right: 4px;
+}
+
+.tech>img {
+    color: #000;
+    position: absolute;
+}
+
+#cart .item {
+    display: none;
+    /* Hide by default */
+}
+
+#cart .title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #444444;
+    text-transform: capitalize;
+    padding-bottom: 12px;
+}
+
+.title:before {
+    content: var(--title);
+}
+
+.image {
+    width: 150px;
+    min-width: 150px;
+    border-radius: 8px;
+    --no: 1;
+    --yes: var(--out-of-stock) 0.5;
+    opacity: var(--yes, var(--no));
+    content: var(--img01);
+}
+
+.out-of-stock {
+    border: 1px solid #777;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    font-size: 12px;
+    z-index: 1;
+    background-color: #dadce0;
+    color: #444;
+    width: 90px;
+    transform-origin: center center;
+    transform: translate(23.5px, 65px);
+    --no: none;
+    --yes: var(--out-of-stock) block;
+    display: var(--yes, var(--no));
+}
+
+.out-of-stock:before {
+    content: 'OUT OF STOCK';
+}
+
+input {
+    display: none;
+}
+
+/* Dropdown Button */
+.dropdown div:nth-child(2) {
+    cursor: pointer;
+    background: url(https://spellbound-images-public.s3.us-east-2.amazonaws.com/caret.png) no-repeat right 12px center/1rem;
+    border-radius: 6px;
+    border: 1px solid #AAABBB66;
+    height: 40px;
+    font-size: 14px;
+    width: 100%;
+    margin: 1px;
+    color: #444444;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown div:nth-child(2):before {
+    content: var(--value);
+}
+
+/* Dropdown hovered */
+.dropdown:hover>div:nth-child(1) {
+    color: #000000;
+}
+
+.dropdown:hover>div:nth-child(2) {
+    border: 1px solid #000000;
+}
+
+/* Dropdown open */
+
+[id^="i01o01v"].open:checked~.widget #i01 .o01 .dropdown div:nth-child(1),
+[id^="i01o02v"].open:checked~.widget #i01 .o02 .dropdown div:nth-child(1),
+[id^="i01o03v"].open:checked~.widget #i01 .o03 .dropdown div:nth-child(1),
+[id^="i02o01v"].open:checked~.widget #i02 .o01 .dropdown div:nth-child(1),
+[id^="i02o02v"].open:checked~.widget #i02 .o02 .dropdown div:nth-child(1),
+[id^="i02o03v"].open:checked~.widget #i02 .o03 .dropdown div:nth-child(1),
+[id^="i03o01v"].open:checked~.widget #i03 .o01 .dropdown div:nth-child(1),
+[id^="i03o02v"].open:checked~.widget #i03 .o02 .dropdown div:nth-child(1),
+[id^="i03o03v"].open:checked~.widget #i03 .o03 .dropdown div:nth-child(1),
+[id^="i04o01v"].open:checked~.widget #i04 .o01 .dropdown div:nth-child(1),
+[id^="i04o02v"].open:checked~.widget #i04 .o02 .dropdown div:nth-child(1),
+[id^="i04o03v"].open:checked~.widget #i04 .o03 .dropdown div:nth-child(1),
+[id^="i05o01v"].open:checked~.widget #i05 .o01 .dropdown div:nth-child(1),
+[id^="i05o02v"].open:checked~.widget #i05 .o02 .dropdown div:nth-child(1),
+[id^="i05o03v"].open:checked~.widget #i05 .o03 .dropdown div:nth-child(1),
+[id^="i06o01v"].open:checked~.widget #i06 .o01 .dropdown div:nth-child(1),
+[id^="i06o02v"].open:checked~.widget #i06 .o02 .dropdown div:nth-child(1),
+[id^="i06o03v"].open:checked~.widget #i06 .o03 .dropdown div:nth-child(1),
+[id^="i07o01v"].open:checked~.widget #i07 .o01 .dropdown div:nth-child(1),
+[id^="i07o02v"].open:checked~.widget #i07 .o02 .dropdown div:nth-child(1),
+[id^="i07o03v"].open:checked~.widget #i07 .o03 .dropdown div:nth-child(1),
+[id^="i08o01v"].open:checked~.widget #i08 .o01 .dropdown div:nth-child(1),
+[id^="i08o02v"].open:checked~.widget #i08 .o02 .dropdown div:nth-child(1),
+[id^="i08o03v"].open:checked~.widget #i08 .o03 .dropdown div:nth-child(1),
+[id^="i09o01v"].open:checked~.widget #i09 .o01 .dropdown div:nth-child(1),
+[id^="i09o02v"].open:checked~.widget #i09 .o02 .dropdown div:nth-child(1),
+[id^="i09o03v"].open:checked~.widget #i09 .o03 .dropdown div:nth-child(1),
+[id^="i10o01v"].open:checked~.widget #i10 .o01 .dropdown div:nth-child(1),
+[id^="i10o02v"].open:checked~.widget #i10 .o02 .dropdown div:nth-child(1),
+[id^="i10o03v"].open:checked~.widget #i10 .o03 .dropdown div:nth-child(1) {
+    color: #1A73E8;
+}
+
+/* ... items++ */
+
+[id^="i01o01v"].open:checked~.widget #i01 .o01 .dropdown div:nth-child(2),
+[id^="i01o02v"].open:checked~.widget #i01 .o02 .dropdown div:nth-child(2),
+[id^="i01o03v"].open:checked~.widget #i01 .o03 .dropdown div:nth-child(2),
+[id^="i02o01v"].open:checked~.widget #i02 .o01 .dropdown div:nth-child(2),
+[id^="i02o02v"].open:checked~.widget #i02 .o02 .dropdown div:nth-child(2),
+[id^="i02o03v"].open:checked~.widget #i02 .o03 .dropdown div:nth-child(2),
+[id^="i03o01v"].open:checked~.widget #i03 .o01 .dropdown div:nth-child(2),
+[id^="i03o02v"].open:checked~.widget #i03 .o02 .dropdown div:nth-child(2),
+[id^="i03o03v"].open:checked~.widget #i03 .o03 .dropdown div:nth-child(2),
+[id^="i04o01v"].open:checked~.widget #i04 .o01 .dropdown div:nth-child(2),
+[id^="i04o02v"].open:checked~.widget #i04 .o02 .dropdown div:nth-child(2),
+[id^="i04o03v"].open:checked~.widget #i04 .o03 .dropdown div:nth-child(2),
+[id^="i05o01v"].open:checked~.widget #i05 .o01 .dropdown div:nth-child(2),
+[id^="i05o02v"].open:checked~.widget #i05 .o02 .dropdown div:nth-child(2),
+[id^="i05o03v"].open:checked~.widget #i05 .o03 .dropdown div:nth-child(2),
+[id^="i06o01v"].open:checked~.widget #i06 .o01 .dropdown div:nth-child(2),
+[id^="i06o02v"].open:checked~.widget #i06 .o02 .dropdown div:nth-child(2),
+[id^="i06o03v"].open:checked~.widget #i06 .o03 .dropdown div:nth-child(2),
+[id^="i07o01v"].open:checked~.widget #i07 .o01 .dropdown div:nth-child(2),
+[id^="i07o02v"].open:checked~.widget #i07 .o02 .dropdown div:nth-child(2),
+[id^="i07o03v"].open:checked~.widget #i07 .o03 .dropdown div:nth-child(2),
+[id^="i08o01v"].open:checked~.widget #i08 .o01 .dropdown div:nth-child(2),
+[id^="i08o02v"].open:checked~.widget #i08 .o02 .dropdown div:nth-child(2),
+[id^="i08o03v"].open:checked~.widget #i08 .o03 .dropdown div:nth-child(2),
+[id^="i09o01v"].open:checked~.widget #i09 .o01 .dropdown div:nth-child(2),
+[id^="i09o02v"].open:checked~.widget #i09 .o02 .dropdown div:nth-child(2),
+[id^="i09o03v"].open:checked~.widget #i09 .o03 .dropdown div:nth-child(2),
+[id^="i10o01v"].open:checked~.widget #i10 .o01 .dropdown div:nth-child(2),
+[id^="i10o02v"].open:checked~.widget #i10 .o02 .dropdown div:nth-child(2),
+[id^="i10o03v"].open:checked~.widget #i10 .o03 .dropdown div:nth-child(2) {
+    background: url(https://spellbound-images-public.s3.us-east-2.amazonaws.com/caret.png) no-repeat right 11px center/1rem;
+    border: 2px solid #1A73E8;
+    height: 38px;
+    padding: 0 11px;
+}
+
+/* ... items++ */
+
+[id^="i01o01v"].open:checked~.widget #i01 .o01 .dropdown-content,
+[id^="i01o02v"].open:checked~.widget #i01 .o02 .dropdown-content,
+[id^="i01o03v"].open:checked~.widget #i01 .o03 .dropdown-content,
+[id^="i02o01v"].open:checked~.widget #i02 .o01 .dropdown-content,
+[id^="i02o02v"].open:checked~.widget #i02 .o02 .dropdown-content,
+[id^="i02o03v"].open:checked~.widget #i02 .o03 .dropdown-content,
+[id^="i03o01v"].open:checked~.widget #i03 .o01 .dropdown-content,
+[id^="i03o02v"].open:checked~.widget #i03 .o02 .dropdown-content,
+[id^="i03o03v"].open:checked~.widget #i03 .o03 .dropdown-content,
+[id^="i04o01v"].open:checked~.widget #i04 .o01 .dropdown-content,
+[id^="i04o02v"].open:checked~.widget #i04 .o02 .dropdown-content,
+[id^="i04o03v"].open:checked~.widget #i04 .o03 .dropdown-content,
+[id^="i05o01v"].open:checked~.widget #i05 .o01 .dropdown-content,
+[id^="i05o02v"].open:checked~.widget #i05 .o02 .dropdown-content,
+[id^="i05o03v"].open:checked~.widget #i05 .o03 .dropdown-content,
+[id^="i06o01v"].open:checked~.widget #i06 .o01 .dropdown-content,
+[id^="i06o02v"].open:checked~.widget #i06 .o02 .dropdown-content,
+[id^="i06o03v"].open:checked~.widget #i06 .o03 .dropdown-content,
+[id^="i07o01v"].open:checked~.widget #i07 .o01 .dropdown-content,
+[id^="i07o02v"].open:checked~.widget #i07 .o02 .dropdown-content,
+[id^="i07o03v"].open:checked~.widget #i07 .o03 .dropdown-content,
+[id^="i08o01v"].open:checked~.widget #i08 .o01 .dropdown-content,
+[id^="i08o02v"].open:checked~.widget #i08 .o02 .dropdown-content,
+[id^="i08o03v"].open:checked~.widget #i08 .o03 .dropdown-content,
+[id^="i09o01v"].open:checked~.widget #i09 .o01 .dropdown-content,
+[id^="i09o02v"].open:checked~.widget #i09 .o02 .dropdown-content,
+[id^="i09o03v"].open:checked~.widget #i09 .o03 .dropdown-content,
+[id^="i10o01v"].open:checked~.widget #i10 .o01 .dropdown-content,
+[id^="i10o02v"].open:checked~.widget #i10 .o02 .dropdown-content,
+[id^="i10o03v"].open:checked~.widget #i10 .o03 .dropdown-content {
+    display: block;
+}
+
+/* ... items++ */
+
+/* Which dropdown is open */
+.dropdown {
+    position: relative;
+    width: calc(100% - 27px);
+    z-index: 50;
+    display: none;
+}
+
+[id^="i01o01v01"]:checked~.widget label.i01o01v01-open,
+[id^="i01o01v02"]:checked~.widget label.i01o01v02-open,
+[id^="i01o01v03"]:checked~.widget label.i01o01v03-open,
+[id^="i01o01v04"]:checked~.widget label.i01o01v04-open,
+[id^="i01o01v05"]:checked~.widget label.i01o01v05-open,
+[id^="i01o02v01"]:checked~.widget label.i01o02v01-open,
+[id^="i01o02v02"]:checked~.widget label.i01o02v02-open,
+[id^="i01o02v03"]:checked~.widget label.i01o02v03-open,
+[id^="i01o02v04"]:checked~.widget label.i01o02v04-open,
+[id^="i01o02v05"]:checked~.widget label.i01o02v05-open,
+[id^="i01o03v01"]:checked~.widget label.i01o03v01-open,
+[id^="i01o03v02"]:checked~.widget label.i01o03v02-open,
+[id^="i01o03v03"]:checked~.widget label.i01o03v03-open,
+[id^="i01o03v04"]:checked~.widget label.i01o03v04-open,
+[id^="i01o03v05"]:checked~.widget label.i01o03v05-open,
+[id^="i02o01v01"]:checked~.widget label.i02o01v01-open,
+[id^="i02o01v02"]:checked~.widget label.i02o01v02-open,
+[id^="i02o01v03"]:checked~.widget label.i02o01v03-open,
+[id^="i02o01v04"]:checked~.widget label.i02o01v04-open,
+[id^="i02o01v05"]:checked~.widget label.i02o01v05-open,
+[id^="i02o02v01"]:checked~.widget label.i02o02v01-open,
+[id^="i02o02v02"]:checked~.widget label.i02o02v02-open,
+[id^="i02o02v03"]:checked~.widget label.i02o02v03-open,
+[id^="i02o02v04"]:checked~.widget label.i02o02v04-open,
+[id^="i02o02v05"]:checked~.widget label.i02o02v05-open,
+[id^="i02o03v01"]:checked~.widget label.i02o03v01-open,
+[id^="i02o03v02"]:checked~.widget label.i02o03v02-open,
+[id^="i02o03v03"]:checked~.widget label.i02o03v03-open,
+[id^="i02o03v04"]:checked~.widget label.i02o03v04-open,
+[id^="i02o03v05"]:checked~.widget label.i02o03v05-open,
+[id^="i03o01v01"]:checked~.widget label.i03o01v01-open,
+[id^="i03o01v02"]:checked~.widget label.i03o01v02-open,
+[id^="i03o01v03"]:checked~.widget label.i03o01v03-open,
+[id^="i03o01v04"]:checked~.widget label.i03o01v04-open,
+[id^="i03o01v05"]:checked~.widget label.i03o01v05-open,
+[id^="i03o02v01"]:checked~.widget label.i03o02v01-open,
+[id^="i03o02v02"]:checked~.widget label.i03o02v02-open,
+[id^="i03o02v03"]:checked~.widget label.i03o02v03-open,
+[id^="i03o02v04"]:checked~.widget label.i03o02v04-open,
+[id^="i03o02v05"]:checked~.widget label.i03o02v05-open,
+[id^="i03o03v01"]:checked~.widget label.i03o03v01-open,
+[id^="i03o03v02"]:checked~.widget label.i03o03v02-open,
+[id^="i03o03v03"]:checked~.widget label.i03o03v03-open,
+[id^="i03o03v04"]:checked~.widget label.i03o03v04-open,
+[id^="i03o03v05"]:checked~.widget label.i03o03v05-open,
+[id^="i04o01v01"]:checked~.widget label.i04o01v01-open,
+[id^="i04o01v02"]:checked~.widget label.i04o01v02-open,
+[id^="i04o01v03"]:checked~.widget label.i04o01v03-open,
+[id^="i04o01v04"]:checked~.widget label.i04o01v04-open,
+[id^="i04o01v05"]:checked~.widget label.i04o01v05-open,
+[id^="i04o02v01"]:checked~.widget label.i04o02v01-open,
+[id^="i04o02v02"]:checked~.widget label.i04o02v02-open,
+[id^="i04o02v03"]:checked~.widget label.i04o02v03-open,
+[id^="i04o02v04"]:checked~.widget label.i04o02v04-open,
+[id^="i04o02v05"]:checked~.widget label.i04o02v05-open,
+[id^="i04o03v01"]:checked~.widget label.i04o03v01-open,
+[id^="i04o03v02"]:checked~.widget label.i04o03v02-open,
+[id^="i04o03v03"]:checked~.widget label.i04o03v03-open,
+[id^="i04o03v04"]:checked~.widget label.i04o03v04-open,
+[id^="i04o03v05"]:checked~.widget label.i04o03v05-open,
+[id^="i05o01v01"]:checked~.widget label.i05o01v01-open,
+[id^="i05o01v02"]:checked~.widget label.i05o01v02-open,
+[id^="i05o01v03"]:checked~.widget label.i05o01v03-open,
+[id^="i05o01v04"]:checked~.widget label.i05o01v04-open,
+[id^="i05o01v05"]:checked~.widget label.i05o01v05-open,
+[id^="i05o02v01"]:checked~.widget label.i05o02v01-open,
+[id^="i05o02v02"]:checked~.widget label.i05o02v02-open,
+[id^="i05o02v03"]:checked~.widget label.i05o02v03-open,
+[id^="i05o02v04"]:checked~.widget label.i05o02v04-open,
+[id^="i05o02v05"]:checked~.widget label.i05o02v05-open,
+[id^="i05o03v01"]:checked~.widget label.i05o03v01-open,
+[id^="i05o03v02"]:checked~.widget label.i05o03v02-open,
+[id^="i05o03v03"]:checked~.widget label.i05o03v03-open,
+[id^="i05o03v04"]:checked~.widget label.i05o03v04-open,
+[id^="i05o03v05"]:checked~.widget label.i05o03v05-open,
+[id^="i06o01v01"]:checked~.widget label.i06o01v01-open,
+[id^="i06o01v02"]:checked~.widget label.i06o01v02-open,
+[id^="i06o01v03"]:checked~.widget label.i06o01v03-open,
+[id^="i06o01v04"]:checked~.widget label.i06o01v04-open,
+[id^="i06o01v05"]:checked~.widget label.i06o01v05-open,
+[id^="i06o02v01"]:checked~.widget label.i06o02v01-open,
+[id^="i06o02v02"]:checked~.widget label.i06o02v02-open,
+[id^="i06o02v03"]:checked~.widget label.i06o02v03-open,
+[id^="i06o02v04"]:checked~.widget label.i06o02v04-open,
+[id^="i06o02v05"]:checked~.widget label.i06o02v05-open,
+[id^="i06o03v01"]:checked~.widget label.i06o03v01-open,
+[id^="i06o03v02"]:checked~.widget label.i06o03v02-open,
+[id^="i06o03v03"]:checked~.widget label.i06o03v03-open,
+[id^="i06o03v04"]:checked~.widget label.i06o03v04-open,
+[id^="i06o03v05"]:checked~.widget label.i06o03v05-open,
+[id^="i07o01v01"]:checked~.widget label.i07o01v01-open,
+[id^="i07o01v02"]:checked~.widget label.i07o01v02-open,
+[id^="i07o01v03"]:checked~.widget label.i07o01v03-open,
+[id^="i07o01v04"]:checked~.widget label.i07o01v04-open,
+[id^="i07o01v05"]:checked~.widget label.i07o01v05-open,
+[id^="i07o02v01"]:checked~.widget label.i07o02v01-open,
+[id^="i07o02v02"]:checked~.widget label.i07o02v02-open,
+[id^="i07o02v03"]:checked~.widget label.i07o02v03-open,
+[id^="i07o02v04"]:checked~.widget label.i07o02v04-open,
+[id^="i07o02v05"]:checked~.widget label.i07o02v05-open,
+[id^="i07o03v01"]:checked~.widget label.i07o03v01-open,
+[id^="i07o03v02"]:checked~.widget label.i07o03v02-open,
+[id^="i07o03v03"]:checked~.widget label.i07o03v03-open,
+[id^="i07o03v04"]:checked~.widget label.i07o03v04-open,
+[id^="i07o03v05"]:checked~.widget label.i07o03v05-open,
+[id^="i08o01v01"]:checked~.widget label.i08o01v01-open,
+[id^="i08o01v02"]:checked~.widget label.i08o01v02-open,
+[id^="i08o01v03"]:checked~.widget label.i08o01v03-open,
+[id^="i08o01v04"]:checked~.widget label.i08o01v04-open,
+[id^="i08o01v05"]:checked~.widget label.i08o01v05-open,
+[id^="i08o02v01"]:checked~.widget label.i08o02v01-open,
+[id^="i08o02v02"]:checked~.widget label.i08o02v02-open,
+[id^="i08o02v03"]:checked~.widget label.i08o02v03-open,
+[id^="i08o02v04"]:checked~.widget label.i08o02v04-open,
+[id^="i08o02v05"]:checked~.widget label.i08o02v05-open,
+[id^="i08o03v01"]:checked~.widget label.i08o03v01-open,
+[id^="i08o03v02"]:checked~.widget label.i08o03v02-open,
+[id^="i08o03v03"]:checked~.widget label.i08o03v03-open,
+[id^="i08o03v04"]:checked~.widget label.i08o03v04-open,
+[id^="i08o03v05"]:checked~.widget label.i08o03v05-open,
+[id^="i09o01v01"]:checked~.widget label.i09o01v01-open,
+[id^="i09o01v02"]:checked~.widget label.i09o01v02-open,
+[id^="i09o01v03"]:checked~.widget label.i09o01v03-open,
+[id^="i09o01v04"]:checked~.widget label.i09o01v04-open,
+[id^="i09o01v05"]:checked~.widget label.i09o01v05-open,
+[id^="i09o02v01"]:checked~.widget label.i09o02v01-open,
+[id^="i09o02v02"]:checked~.widget label.i09o02v02-open,
+[id^="i09o02v03"]:checked~.widget label.i09o02v03-open,
+[id^="i09o02v04"]:checked~.widget label.i09o02v04-open,
+[id^="i09o02v05"]:checked~.widget label.i09o02v05-open,
+[id^="i09o03v01"]:checked~.widget label.i09o03v01-open,
+[id^="i09o03v02"]:checked~.widget label.i09o03v02-open,
+[id^="i09o03v03"]:checked~.widget label.i09o03v03-open,
+[id^="i09o03v04"]:checked~.widget label.i09o03v04-open,
+[id^="i09o03v05"]:checked~.widget label.i09o03v05-open,
+[id^="i10o01v01"]:checked~.widget label.i10o01v01-open,
+[id^="i10o01v02"]:checked~.widget label.i10o01v02-open,
+[id^="i10o01v03"]:checked~.widget label.i10o01v03-open,
+[id^="i10o01v04"]:checked~.widget label.i10o01v04-open,
+[id^="i10o01v05"]:checked~.widget label.i10o01v05-open,
+[id^="i10o02v01"]:checked~.widget label.i10o02v01-open,
+[id^="i10o02v02"]:checked~.widget label.i10o02v02-open,
+[id^="i10o02v03"]:checked~.widget label.i10o02v03-open,
+[id^="i10o02v04"]:checked~.widget label.i10o02v04-open,
+[id^="i10o02v05"]:checked~.widget label.i10o02v05-open,
+[id^="i10o03v01"]:checked~.widget label.i10o03v01-open,
+[id^="i10o03v02"]:checked~.widget label.i10o03v02-open,
+[id^="i10o03v03"]:checked~.widget label.i10o03v03-open,
+[id^="i10o03v04"]:checked~.widget label.i10o03v04-open,
+[id^="i10o03v05"]:checked~.widget label.i10o03v05-open {
+    display: block;
+}
+
+/* ... items++ */
+
+
+label.close {
+    opacity: 0.5;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 70;
+    display: none;
+}
+
+#i01o01v01-open:checked~label.i01o01v01-close,
+#i01o01v02-open:checked~label.i01o01v02-close,
+#i01o01v03-open:checked~label.i01o01v03-close,
+#i01o01v04-open:checked~label.i01o01v04-close,
+#i01o01v05-open:checked~label.i01o01v05-close,
+#i01o02v01-open:checked~label.i01o02v01-close,
+#i01o02v02-open:checked~label.i01o02v02-close,
+#i01o02v03-open:checked~label.i01o02v03-close,
+#i01o02v04-open:checked~label.i01o02v04-close,
+#i01o02v05-open:checked~label.i01o02v05-close,
+#i01o03v01-open:checked~label.i01o03v01-close,
+#i01o03v02-open:checked~label.i01o03v02-close,
+#i01o03v03-open:checked~label.i01o03v03-close,
+#i01o03v04-open:checked~label.i01o03v04-close,
+#i01o03v05-open:checked~label.i01o03v05-close,
+#i02o01v01-open:checked~label.i02o01v01-close,
+#i02o01v02-open:checked~label.i02o01v02-close,
+#i02o01v03-open:checked~label.i02o01v03-close,
+#i02o01v04-open:checked~label.i02o01v04-close,
+#i02o01v05-open:checked~label.i02o01v05-close,
+#i02o02v01-open:checked~label.i02o02v01-close,
+#i02o02v02-open:checked~label.i02o02v02-close,
+#i02o02v03-open:checked~label.i02o02v03-close,
+#i02o02v04-open:checked~label.i02o02v04-close,
+#i02o02v05-open:checked~label.i02o02v05-close,
+#i02o03v01-open:checked~label.i02o03v01-close,
+#i02o03v02-open:checked~label.i02o03v02-close,
+#i02o03v03-open:checked~label.i02o03v03-close,
+#i02o03v04-open:checked~label.i02o03v04-close,
+#i02o03v05-open:checked~label.i02o03v05-close,
+#i03o01v01-open:checked~label.i03o01v01-close,
+#i03o01v02-open:checked~label.i03o01v02-close,
+#i03o01v03-open:checked~label.i03o01v03-close,
+#i03o01v04-open:checked~label.i03o01v04-close,
+#i03o01v05-open:checked~label.i03o01v05-close,
+#i03o02v01-open:checked~label.i03o02v01-close,
+#i03o02v02-open:checked~label.i03o02v02-close,
+#i03o02v03-open:checked~label.i03o02v03-close,
+#i03o02v04-open:checked~label.i03o02v04-close,
+#i03o02v05-open:checked~label.i03o02v05-close,
+#i03o03v01-open:checked~label.i03o03v01-close,
+#i03o03v02-open:checked~label.i03o03v02-close,
+#i03o03v03-open:checked~label.i03o03v03-close,
+#i03o03v04-open:checked~label.i03o03v04-close,
+#i03o03v05-open:checked~label.i03o03v05-close,
+#i04o01v01-open:checked~label.i04o01v01-close,
+#i04o01v02-open:checked~label.i04o01v02-close,
+#i04o01v03-open:checked~label.i04o01v03-close,
+#i04o01v04-open:checked~label.i04o01v04-close,
+#i04o01v05-open:checked~label.i04o01v05-close,
+#i04o02v01-open:checked~label.i04o02v01-close,
+#i04o02v02-open:checked~label.i04o02v02-close,
+#i04o02v03-open:checked~label.i04o02v03-close,
+#i04o02v04-open:checked~label.i04o02v04-close,
+#i04o02v05-open:checked~label.i04o02v05-close,
+#i04o03v01-open:checked~label.i04o03v01-close,
+#i04o03v02-open:checked~label.i04o03v02-close,
+#i04o03v03-open:checked~label.i04o03v03-close,
+#i04o03v04-open:checked~label.i04o03v04-close,
+#i04o03v05-open:checked~label.i04o03v05-close,
+#i05o01v01-open:checked~label.i05o01v01-close,
+#i05o01v02-open:checked~label.i05o01v02-close,
+#i05o01v03-open:checked~label.i05o01v03-close,
+#i05o01v04-open:checked~label.i05o01v04-close,
+#i05o01v05-open:checked~label.i05o01v05-close,
+#i05o02v01-open:checked~label.i05o02v01-close,
+#i05o02v02-open:checked~label.i05o02v02-close,
+#i05o02v03-open:checked~label.i05o02v03-close,
+#i05o02v04-open:checked~label.i05o02v04-close,
+#i05o02v05-open:checked~label.i05o02v05-close,
+#i05o03v01-open:checked~label.i05o03v01-close,
+#i05o03v02-open:checked~label.i05o03v02-close,
+#i05o03v03-open:checked~label.i05o03v03-close,
+#i05o03v04-open:checked~label.i05o03v04-close,
+#i05o03v05-open:checked~label.i05o03v05-close,
+#i06o01v01-open:checked~label.i06o01v01-close,
+#i06o01v02-open:checked~label.i06o01v02-close,
+#i06o01v03-open:checked~label.i06o01v03-close,
+#i06o01v04-open:checked~label.i06o01v04-close,
+#i06o01v05-open:checked~label.i06o01v05-close,
+#i06o02v01-open:checked~label.i06o02v01-close,
+#i06o02v02-open:checked~label.i06o02v02-close,
+#i06o02v03-open:checked~label.i06o02v03-close,
+#i06o02v04-open:checked~label.i06o02v04-close,
+#i06o02v05-open:checked~label.i06o02v05-close,
+#i06o03v01-open:checked~label.i06o03v01-close,
+#i06o03v02-open:checked~label.i06o03v02-close,
+#i06o03v03-open:checked~label.i06o03v03-close,
+#i06o03v04-open:checked~label.i06o03v04-close,
+#i06o03v05-open:checked~label.i06o03v05-close,
+#i07o01v01-open:checked~label.i07o01v01-close,
+#i07o01v02-open:checked~label.i07o01v02-close,
+#i07o01v03-open:checked~label.i07o01v03-close,
+#i07o01v04-open:checked~label.i07o01v04-close,
+#i07o01v05-open:checked~label.i07o01v05-close,
+#i07o02v01-open:checked~label.i07o02v01-close,
+#i07o02v02-open:checked~label.i07o02v02-close,
+#i07o02v03-open:checked~label.i07o02v03-close,
+#i07o02v04-open:checked~label.i07o02v04-close,
+#i07o02v05-open:checked~label.i07o02v05-close,
+#i07o03v01-open:checked~label.i07o03v01-close,
+#i07o03v02-open:checked~label.i07o03v02-close,
+#i07o03v03-open:checked~label.i07o03v03-close,
+#i07o03v04-open:checked~label.i07o03v04-close,
+#i07o03v05-open:checked~label.i07o03v05-close,
+#i08o01v01-open:checked~label.i08o01v01-close,
+#i08o01v02-open:checked~label.i08o01v02-close,
+#i08o01v03-open:checked~label.i08o01v03-close,
+#i08o01v04-open:checked~label.i08o01v04-close,
+#i08o01v05-open:checked~label.i08o01v05-close,
+#i08o02v01-open:checked~label.i08o02v01-close,
+#i08o02v02-open:checked~label.i08o02v02-close,
+#i08o02v03-open:checked~label.i08o02v03-close,
+#i08o02v04-open:checked~label.i08o02v04-close,
+#i08o02v05-open:checked~label.i08o02v05-close,
+#i08o03v01-open:checked~label.i08o03v01-close,
+#i08o03v02-open:checked~label.i08o03v02-close,
+#i08o03v03-open:checked~label.i08o03v03-close,
+#i08o03v04-open:checked~label.i08o03v04-close,
+#i08o03v05-open:checked~label.i08o03v05-close,
+#i09o01v01-open:checked~label.i09o01v01-close,
+#i09o01v02-open:checked~label.i09o01v02-close,
+#i09o01v03-open:checked~label.i09o01v03-close,
+#i09o01v04-open:checked~label.i09o01v04-close,
+#i09o01v05-open:checked~label.i09o01v05-close,
+#i09o02v01-open:checked~label.i09o02v01-close,
+#i09o02v02-open:checked~label.i09o02v02-close,
+#i09o02v03-open:checked~label.i09o02v03-close,
+#i09o02v04-open:checked~label.i09o02v04-close,
+#i09o02v05-open:checked~label.i09o02v05-close,
+#i09o03v01-open:checked~label.i09o03v01-close,
+#i09o03v02-open:checked~label.i09o03v02-close,
+#i09o03v03-open:checked~label.i09o03v03-close,
+#i09o03v04-open:checked~label.i09o03v04-close,
+#i09o03v05-open:checked~label.i09o03v05-close,
+#i10o01v01-open:checked~label.i10o01v01-close,
+#i10o01v02-open:checked~label.i10o01v02-close,
+#i10o01v03-open:checked~label.i10o01v03-close,
+#i10o01v04-open:checked~label.i10o01v04-close,
+#i10o01v05-open:checked~label.i10o01v05-close,
+#i10o02v01-open:checked~label.i10o02v01-close,
+#i10o02v02-open:checked~label.i10o02v02-close,
+#i10o02v03-open:checked~label.i10o02v03-close,
+#i10o02v04-open:checked~label.i10o02v04-close,
+#i10o02v05-open:checked~label.i10o02v05-close,
+#i10o03v01-open:checked~label.i10o03v01-close,
+#i10o03v02-open:checked~label.i10o03v02-close,
+#i10o03v03-open:checked~label.i10o03v03-close,
+#i10o03v04-open:checked~label.i10o03v04-close,
+#i10o03v05-open:checked~label.i10o03v05-close {
+    display: block;
+}
+
+/* ... items++ */
+
+
+.option {
+    margin-bottom: 5px;
+    --show: var(--FALSE);
+    --no: none;
+    --yes: var(--show) block;
+    display: var(--yes, var(--no));
+}
+
+/* Option label */
+.dropdown div:nth-child(1) {
+    position: absolute;
+    top: -9px;
+    right: 0;
+    left: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 17px;
+    transform: scale(0.7);
+    transform-origin: left center;
+    background-color: white;
+    color: #AAABBBFF;
+    padding: 0 4px;
+    width: fit-content;
+}
+
+/* Option label */
+.dropdown div:nth-child(1):before {
+    content: var(--option);
+}
+
+.value {
+    --show: var(--FALSE);
+    --no: none;
+    --yes: var(--show) flex;
+    display: var(--yes, var(--no));
+    --grayed-out: var(--FALSE);
+    ---no: 1;
+    ---yes: var(--grayed-out) 0.5;
+    opacity: var(---yes, var(---no));
+}
+
+.value:before {
+    content: var(--value);
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    max-height: 200px;
+    position: absolute;
+    width: calc(100% + 10px);
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08), inset 0 0 0 1px rgba(0, 0, 0, .16);
+    border-radius: 8px;
+    z-index: 100;
+    padding: 8px;
+    margin-top: 2px;
+    transform: translateX(1px);
+    overflow-y: scroll;
+    display: none;
+}
+
+/* Values inside the dropdown */
+.dropdown-content label {
+    min-height: 34px;
+    height: 34px;
+    padding: 2px 6px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.dropdown-content label:hover {
+    background: rgba(0, 0, 0, .08);
+    border-radius: 4px;
+}
+
+.quantity {
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid #AAABBB66;
+    height: 40px;
+    font-size: 14px;
+    width: 100%;
+    margin: 1px;
+    color: #444444;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: calc(100% - 3px);
+    z-index: 50;
+}
+
+.quantity:hover {
+    border: 1px solid #000000;
+}
+
+.minus-btn,
+.plus-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px
+}
+
+.minus-btn label,
+.plus-btn label,
+.minus-btn div,
+.plus-btn div {
+    width: 100%;
+    height: 100%;
+    display: none;
+    /* Hide by default */
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #AAABBBFF;
+}
+
+.minus-btn label:before,
+.minus-btn div:before {
+    content: '−';
+}
+
+.plus-btn label:before,
+.plus-btn div:before {
+    content: '+';
+}
+
+.minus-btn label:hover,
+.plus-btn label:hover {
+    color: #000000;
+}
+
+div.max,
+div.min,
+div.max:hover,
+div.min:hover {
+    color: #AAABBBFF;
+    opacity: 0.3;
+    display: flex;
+    position: absolute;
+    width: 40px;
+    z-index: -1;
+}
+
+
+/* Image Carousel */
+.image-carousel {
+    width: 150px;
+    position: relative;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    margin-top: 70px;
+    /* TODO: find better way to center */
+}
+
+.prev-btn {
+    left: 0;
+}
+
+.next-btn {
+    right: 0;
+}
+
+.prev-btn label,
+.next-btn label {
+    display: none;
+    /* Hide by default */
+    font-size: 20px;
+    color: #AAABBBFF;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08), inset 0 0 0 1px rgba(0, 0, 0, .16);
+}
+
+.prev-btn label:before {
+    content: '<';
+}
+
+.next-btn label:before {
+    content: '>';
+}
+
+#i01img01:checked~.widget #i01 .image-carousel .next-btn .img02,
+#i01img02:checked~.widget #i01 .image-carousel .next-btn .img03,
+#i01img03:checked~.widget #i01 .image-carousel .next-btn .img04,
+#i01img04:checked~.widget #i01 .image-carousel .next-btn .img05,
+#i01img05:checked~.widget #i01 .image-carousel .next-btn .img06,
+#i01img06:checked~.widget #i01 .image-carousel .next-btn .img07,
+#i01img07:checked~.widget #i01 .image-carousel .next-btn .img08,
+#i01img08:checked~.widget #i01 .image-carousel .next-btn .img09,
+#i01img09:checked~.widget #i01 .image-carousel .next-btn .img10,
+#i01img02:checked~.widget #i01 .image-carousel .prev-btn .img01,
+#i01img03:checked~.widget #i01 .image-carousel .prev-btn .img02,
+#i01img04:checked~.widget #i01 .image-carousel .prev-btn .img03,
+#i01img05:checked~.widget #i01 .image-carousel .prev-btn .img04,
+#i01img06:checked~.widget #i01 .image-carousel .prev-btn .img05,
+#i01img07:checked~.widget #i01 .image-carousel .prev-btn .img06,
+#i01img08:checked~.widget #i01 .image-carousel .prev-btn .img07,
+#i01img09:checked~.widget #i01 .image-carousel .prev-btn .img08,
+#i01img10:checked~.widget #i01 .image-carousel .prev-btn .img09 {
+    display: flex;
+}
+
+/* ... items++ */
+
+
+
+#i01qdm10:checked~.widget #i01 .plus-btn .qdm09,
+#i01qdm09:checked~.widget #i01 .plus-btn .qdm08,
+#i01qdm09:checked~.widget #i01 .minus-btn .qdm10,
+#i01qdm08:checked~.widget #i01 .plus-btn .qdm07,
+#i01qdm08:checked~.widget #i01 .minus-btn .qdm09,
+#i01qdm07:checked~.widget #i01 .plus-btn .qdm06,
+#i01qdm07:checked~.widget #i01 .minus-btn .qdm08,
+#i01qdm06:checked~.widget #i01 .plus-btn .qdm05,
+#i01qdm06:checked~.widget #i01 .minus-btn .qdm07,
+#i01qdm05:checked~.widget #i01 .plus-btn .qdm04,
+#i01qdm05:checked~.widget #i01 .minus-btn .qdm06,
+#i01qdm04:checked~.widget #i01 .plus-btn .qdm03,
+#i01qdm04:checked~.widget #i01 .minus-btn .qdm05,
+#i01qdm03:checked~.widget #i01 .plus-btn .qdm02,
+#i01qdm03:checked~.widget #i01 .minus-btn .qdm04,
+#i01qdm02:checked~.widget #i01 .plus-btn .qdm01,
+#i01qdm02:checked~.widget #i01 .minus-btn .qdm03,
+#i01qdm01:checked~.widget #i01 .plus-btn .qdp00,
+#i01qdm01:checked~.widget #i01 .minus-btn .qdm02,
+#i01qdp00:checked~.widget #i01 .plus-btn .qdp01,
+#i01qdp00:checked~.widget #i01 .minus-btn .qdm01,
+#i01qdp01:checked~.widget #i01 .plus-btn .qdp02,
+#i01qdp01:checked~.widget #i01 .minus-btn .qdp00,
+#i01qdp02:checked~.widget #i01 .plus-btn .qdp03,
+#i01qdp02:checked~.widget #i01 .minus-btn .qdp01,
+#i01qdp03:checked~.widget #i01 .plus-btn .qdp04,
+#i01qdp03:checked~.widget #i01 .minus-btn .qdp02,
+#i01qdp04:checked~.widget #i01 .plus-btn .qdp05,
+#i01qdp04:checked~.widget #i01 .minus-btn .qdp03,
+#i01qdp05:checked~.widget #i01 .plus-btn .qdp06,
+#i01qdp05:checked~.widget #i01 .minus-btn .qdp04,
+#i01qdp06:checked~.widget #i01 .plus-btn .qdp07,
+#i01qdp06:checked~.widget #i01 .minus-btn .qdp05,
+#i01qdp07:checked~.widget #i01 .plus-btn .qdp08,
+#i01qdp07:checked~.widget #i01 .minus-btn .qdp06,
+#i01qdp08:checked~.widget #i01 .plus-btn .qdp09,
+#i01qdp08:checked~.widget #i01 .minus-btn .qdp07,
+#i01qdp09:checked~.widget #i01 .plus-btn .qdp10,
+#i01qdp09:checked~.widget #i01 .minus-btn .qdp08,
+#i01qdp10:checked~.widget #i01 .minus-btn .qdp09,
+#i02qdm10:checked~.widget #i02 .plus-btn .qdm09,
+#i02qdm09:checked~.widget #i02 .plus-btn .qdm08,
+#i02qdm09:checked~.widget #i02 .minus-btn .qdm10,
+#i02qdm08:checked~.widget #i02 .plus-btn .qdm07,
+#i02qdm08:checked~.widget #i02 .minus-btn .qdm09,
+#i02qdm07:checked~.widget #i02 .plus-btn .qdm06,
+#i02qdm07:checked~.widget #i02 .minus-btn .qdm08,
+#i02qdm06:checked~.widget #i02 .plus-btn .qdm05,
+#i02qdm06:checked~.widget #i02 .minus-btn .qdm07,
+#i02qdm05:checked~.widget #i02 .plus-btn .qdm04,
+#i02qdm05:checked~.widget #i02 .minus-btn .qdm06,
+#i02qdm04:checked~.widget #i02 .plus-btn .qdm03,
+#i02qdm04:checked~.widget #i02 .minus-btn .qdm05,
+#i02qdm03:checked~.widget #i02 .plus-btn .qdm02,
+#i02qdm03:checked~.widget #i02 .minus-btn .qdm04,
+#i02qdm02:checked~.widget #i02 .plus-btn .qdm01,
+#i02qdm02:checked~.widget #i02 .minus-btn .qdm03,
+#i02qdm01:checked~.widget #i02 .plus-btn .qdp00,
+#i02qdm01:checked~.widget #i02 .minus-btn .qdm02,
+#i02qdp00:checked~.widget #i02 .plus-btn .qdp01,
+#i02qdp00:checked~.widget #i02 .minus-btn .qdm01,
+#i02qdp01:checked~.widget #i02 .plus-btn .qdp02,
+#i02qdp01:checked~.widget #i02 .minus-btn .qdp00,
+#i02qdp02:checked~.widget #i02 .plus-btn .qdp03,
+#i02qdp02:checked~.widget #i02 .minus-btn .qdp01,
+#i02qdp03:checked~.widget #i02 .plus-btn .qdp04,
+#i02qdp03:checked~.widget #i02 .minus-btn .qdp02,
+#i02qdp04:checked~.widget #i02 .plus-btn .qdp05,
+#i02qdp04:checked~.widget #i02 .minus-btn .qdp03,
+#i02qdp05:checked~.widget #i02 .plus-btn .qdp06,
+#i02qdp05:checked~.widget #i02 .minus-btn .qdp04,
+#i02qdp06:checked~.widget #i02 .plus-btn .qdp07,
+#i02qdp06:checked~.widget #i02 .minus-btn .qdp05,
+#i02qdp07:checked~.widget #i02 .plus-btn .qdp08,
+#i02qdp07:checked~.widget #i02 .minus-btn .qdp06,
+#i02qdp08:checked~.widget #i02 .plus-btn .qdp09,
+#i02qdp08:checked~.widget #i02 .minus-btn .qdp07,
+#i02qdp09:checked~.widget #i02 .plus-btn .qdp10,
+#i02qdp09:checked~.widget #i02 .minus-btn .qdp08,
+#i02qdp10:checked~.widget #i02 .minus-btn .qdp09,
+#i03qdm10:checked~.widget #i03 .plus-btn .qdm09,
+#i03qdm09:checked~.widget #i03 .plus-btn .qdm08,
+#i03qdm09:checked~.widget #i03 .minus-btn .qdm10,
+#i03qdm08:checked~.widget #i03 .plus-btn .qdm07,
+#i03qdm08:checked~.widget #i03 .minus-btn .qdm09,
+#i03qdm07:checked~.widget #i03 .plus-btn .qdm06,
+#i03qdm07:checked~.widget #i03 .minus-btn .qdm08,
+#i03qdm06:checked~.widget #i03 .plus-btn .qdm05,
+#i03qdm06:checked~.widget #i03 .minus-btn .qdm07,
+#i03qdm05:checked~.widget #i03 .plus-btn .qdm04,
+#i03qdm05:checked~.widget #i03 .minus-btn .qdm06,
+#i03qdm04:checked~.widget #i03 .plus-btn .qdm03,
+#i03qdm04:checked~.widget #i03 .minus-btn .qdm05,
+#i03qdm03:checked~.widget #i03 .plus-btn .qdm02,
+#i03qdm03:checked~.widget #i03 .minus-btn .qdm04,
+#i03qdm02:checked~.widget #i03 .plus-btn .qdm01,
+#i03qdm02:checked~.widget #i03 .minus-btn .qdm03,
+#i03qdm01:checked~.widget #i03 .plus-btn .qdp00,
+#i03qdm01:checked~.widget #i03 .minus-btn .qdm02,
+#i03qdp00:checked~.widget #i03 .plus-btn .qdp01,
+#i03qdp00:checked~.widget #i03 .minus-btn .qdm01,
+#i03qdp01:checked~.widget #i03 .plus-btn .qdp02,
+#i03qdp01:checked~.widget #i03 .minus-btn .qdp00,
+#i03qdp02:checked~.widget #i03 .plus-btn .qdp03,
+#i03qdp02:checked~.widget #i03 .minus-btn .qdp01,
+#i03qdp03:checked~.widget #i03 .plus-btn .qdp04,
+#i03qdp03:checked~.widget #i03 .minus-btn .qdp02,
+#i03qdp04:checked~.widget #i03 .plus-btn .qdp05,
+#i03qdp04:checked~.widget #i03 .minus-btn .qdp03,
+#i03qdp05:checked~.widget #i03 .plus-btn .qdp06,
+#i03qdp05:checked~.widget #i03 .minus-btn .qdp04,
+#i03qdp06:checked~.widget #i03 .plus-btn .qdp07,
+#i03qdp06:checked~.widget #i03 .minus-btn .qdp05,
+#i03qdp07:checked~.widget #i03 .plus-btn .qdp08,
+#i03qdp07:checked~.widget #i03 .minus-btn .qdp06,
+#i03qdp08:checked~.widget #i03 .plus-btn .qdp09,
+#i03qdp08:checked~.widget #i03 .minus-btn .qdp07,
+#i03qdp09:checked~.widget #i03 .plus-btn .qdp10,
+#i03qdp09:checked~.widget #i03 .minus-btn .qdp08,
+#i03qdp10:checked~.widget #i03 .minus-btn .qdp09,
+#i04qdm10:checked~.widget #i04 .plus-btn .qdm09,
+#i04qdm09:checked~.widget #i04 .plus-btn .qdm08,
+#i04qdm09:checked~.widget #i04 .minus-btn .qdm10,
+#i04qdm08:checked~.widget #i04 .plus-btn .qdm07,
+#i04qdm08:checked~.widget #i04 .minus-btn .qdm09,
+#i04qdm07:checked~.widget #i04 .plus-btn .qdm06,
+#i04qdm07:checked~.widget #i04 .minus-btn .qdm08,
+#i04qdm06:checked~.widget #i04 .plus-btn .qdm05,
+#i04qdm06:checked~.widget #i04 .minus-btn .qdm07,
+#i04qdm05:checked~.widget #i04 .plus-btn .qdm04,
+#i04qdm05:checked~.widget #i04 .minus-btn .qdm06,
+#i04qdm04:checked~.widget #i04 .plus-btn .qdm03,
+#i04qdm04:checked~.widget #i04 .minus-btn .qdm05,
+#i04qdm03:checked~.widget #i04 .plus-btn .qdm02,
+#i04qdm03:checked~.widget #i04 .minus-btn .qdm04,
+#i04qdm02:checked~.widget #i04 .plus-btn .qdm01,
+#i04qdm02:checked~.widget #i04 .minus-btn .qdm03,
+#i04qdm01:checked~.widget #i04 .plus-btn .qdp00,
+#i04qdm01:checked~.widget #i04 .minus-btn .qdm02,
+#i04qdp00:checked~.widget #i04 .plus-btn .qdp01,
+#i04qdp00:checked~.widget #i04 .minus-btn .qdm01,
+#i04qdp01:checked~.widget #i04 .plus-btn .qdp02,
+#i04qdp01:checked~.widget #i04 .minus-btn .qdp00,
+#i04qdp02:checked~.widget #i04 .plus-btn .qdp03,
+#i04qdp02:checked~.widget #i04 .minus-btn .qdp01,
+#i04qdp03:checked~.widget #i04 .plus-btn .qdp04,
+#i04qdp03:checked~.widget #i04 .minus-btn .qdp02,
+#i04qdp04:checked~.widget #i04 .plus-btn .qdp05,
+#i04qdp04:checked~.widget #i04 .minus-btn .qdp03,
+#i04qdp05:checked~.widget #i04 .plus-btn .qdp06,
+#i04qdp05:checked~.widget #i04 .minus-btn .qdp04,
+#i04qdp06:checked~.widget #i04 .plus-btn .qdp07,
+#i04qdp06:checked~.widget #i04 .minus-btn .qdp05,
+#i04qdp07:checked~.widget #i04 .plus-btn .qdp08,
+#i04qdp07:checked~.widget #i04 .minus-btn .qdp06,
+#i04qdp08:checked~.widget #i04 .plus-btn .qdp09,
+#i04qdp08:checked~.widget #i04 .minus-btn .qdp07,
+#i04qdp09:checked~.widget #i04 .plus-btn .qdp10,
+#i04qdp09:checked~.widget #i04 .minus-btn .qdp08,
+#i04qdp10:checked~.widget #i04 .minus-btn .qdp09,
+#i05qdm10:checked~.widget #i05 .plus-btn .qdm09,
+#i05qdm09:checked~.widget #i05 .plus-btn .qdm08,
+#i05qdm09:checked~.widget #i05 .minus-btn .qdm10,
+#i05qdm08:checked~.widget #i05 .plus-btn .qdm07,
+#i05qdm08:checked~.widget #i05 .minus-btn .qdm09,
+#i05qdm07:checked~.widget #i05 .plus-btn .qdm06,
+#i05qdm07:checked~.widget #i05 .minus-btn .qdm08,
+#i05qdm06:checked~.widget #i05 .plus-btn .qdm05,
+#i05qdm06:checked~.widget #i05 .minus-btn .qdm07,
+#i05qdm05:checked~.widget #i05 .plus-btn .qdm04,
+#i05qdm05:checked~.widget #i05 .minus-btn .qdm06,
+#i05qdm04:checked~.widget #i05 .plus-btn .qdm03,
+#i05qdm04:checked~.widget #i05 .minus-btn .qdm05,
+#i05qdm03:checked~.widget #i05 .plus-btn .qdm02,
+#i05qdm03:checked~.widget #i05 .minus-btn .qdm04,
+#i05qdm02:checked~.widget #i05 .plus-btn .qdm01,
+#i05qdm02:checked~.widget #i05 .minus-btn .qdm03,
+#i05qdm01:checked~.widget #i05 .plus-btn .qdp00,
+#i05qdm01:checked~.widget #i05 .minus-btn .qdm02,
+#i05qdp00:checked~.widget #i05 .plus-btn .qdp01,
+#i05qdp00:checked~.widget #i05 .minus-btn .qdm01,
+#i05qdp01:checked~.widget #i05 .plus-btn .qdp02,
+#i05qdp01:checked~.widget #i05 .minus-btn .qdp00,
+#i05qdp02:checked~.widget #i05 .plus-btn .qdp03,
+#i05qdp02:checked~.widget #i05 .minus-btn .qdp01,
+#i05qdp03:checked~.widget #i05 .plus-btn .qdp04,
+#i05qdp03:checked~.widget #i05 .minus-btn .qdp02,
+#i05qdp04:checked~.widget #i05 .plus-btn .qdp05,
+#i05qdp04:checked~.widget #i05 .minus-btn .qdp03,
+#i05qdp05:checked~.widget #i05 .plus-btn .qdp06,
+#i05qdp05:checked~.widget #i05 .minus-btn .qdp04,
+#i05qdp06:checked~.widget #i05 .plus-btn .qdp07,
+#i05qdp06:checked~.widget #i05 .minus-btn .qdp05,
+#i05qdp07:checked~.widget #i05 .plus-btn .qdp08,
+#i05qdp07:checked~.widget #i05 .minus-btn .qdp06,
+#i05qdp08:checked~.widget #i05 .plus-btn .qdp09,
+#i05qdp08:checked~.widget #i05 .minus-btn .qdp07,
+#i05qdp09:checked~.widget #i05 .plus-btn .qdp10,
+#i05qdp09:checked~.widget #i05 .minus-btn .qdp08,
+#i05qdp10:checked~.widget #i05 .minus-btn .qdp09,
+#i06qdm10:checked~.widget #i06 .plus-btn .qdm09,
+#i06qdm09:checked~.widget #i06 .plus-btn .qdm08,
+#i06qdm09:checked~.widget #i06 .minus-btn .qdm10,
+#i06qdm08:checked~.widget #i06 .plus-btn .qdm07,
+#i06qdm08:checked~.widget #i06 .minus-btn .qdm09,
+#i06qdm07:checked~.widget #i06 .plus-btn .qdm06,
+#i06qdm07:checked~.widget #i06 .minus-btn .qdm08,
+#i06qdm06:checked~.widget #i06 .plus-btn .qdm05,
+#i06qdm06:checked~.widget #i06 .minus-btn .qdm07,
+#i06qdm05:checked~.widget #i06 .plus-btn .qdm04,
+#i06qdm05:checked~.widget #i06 .minus-btn .qdm06,
+#i06qdm04:checked~.widget #i06 .plus-btn .qdm03,
+#i06qdm04:checked~.widget #i06 .minus-btn .qdm05,
+#i06qdm03:checked~.widget #i06 .plus-btn .qdm02,
+#i06qdm03:checked~.widget #i06 .minus-btn .qdm04,
+#i06qdm02:checked~.widget #i06 .plus-btn .qdm01,
+#i06qdm02:checked~.widget #i06 .minus-btn .qdm03,
+#i06qdm01:checked~.widget #i06 .plus-btn .qdp00,
+#i06qdm01:checked~.widget #i06 .minus-btn .qdm02,
+#i06qdp00:checked~.widget #i06 .plus-btn .qdp01,
+#i06qdp00:checked~.widget #i06 .minus-btn .qdm01,
+#i06qdp01:checked~.widget #i06 .plus-btn .qdp02,
+#i06qdp01:checked~.widget #i06 .minus-btn .qdp00,
+#i06qdp02:checked~.widget #i06 .plus-btn .qdp03,
+#i06qdp02:checked~.widget #i06 .minus-btn .qdp01,
+#i06qdp03:checked~.widget #i06 .plus-btn .qdp04,
+#i06qdp03:checked~.widget #i06 .minus-btn .qdp02,
+#i06qdp04:checked~.widget #i06 .plus-btn .qdp05,
+#i06qdp04:checked~.widget #i06 .minus-btn .qdp03,
+#i06qdp05:checked~.widget #i06 .plus-btn .qdp06,
+#i06qdp05:checked~.widget #i06 .minus-btn .qdp04,
+#i06qdp06:checked~.widget #i06 .plus-btn .qdp07,
+#i06qdp06:checked~.widget #i06 .minus-btn .qdp05,
+#i06qdp07:checked~.widget #i06 .plus-btn .qdp08,
+#i06qdp07:checked~.widget #i06 .minus-btn .qdp06,
+#i06qdp08:checked~.widget #i06 .plus-btn .qdp09,
+#i06qdp08:checked~.widget #i06 .minus-btn .qdp07,
+#i06qdp09:checked~.widget #i06 .plus-btn .qdp10,
+#i06qdp09:checked~.widget #i06 .minus-btn .qdp08,
+#i06qdp10:checked~.widget #i06 .minus-btn .qdp09,
+#i07qdm10:checked~.widget #i07 .plus-btn .qdm09,
+#i07qdm09:checked~.widget #i07 .plus-btn .qdm08,
+#i07qdm09:checked~.widget #i07 .minus-btn .qdm10,
+#i07qdm08:checked~.widget #i07 .plus-btn .qdm07,
+#i07qdm08:checked~.widget #i07 .minus-btn .qdm09,
+#i07qdm07:checked~.widget #i07 .plus-btn .qdm06,
+#i07qdm07:checked~.widget #i07 .minus-btn .qdm08,
+#i07qdm06:checked~.widget #i07 .plus-btn .qdm05,
+#i07qdm06:checked~.widget #i07 .minus-btn .qdm07,
+#i07qdm05:checked~.widget #i07 .plus-btn .qdm04,
+#i07qdm05:checked~.widget #i07 .minus-btn .qdm06,
+#i07qdm04:checked~.widget #i07 .plus-btn .qdm03,
+#i07qdm04:checked~.widget #i07 .minus-btn .qdm05,
+#i07qdm03:checked~.widget #i07 .plus-btn .qdm02,
+#i07qdm03:checked~.widget #i07 .minus-btn .qdm04,
+#i07qdm02:checked~.widget #i07 .plus-btn .qdm01,
+#i07qdm02:checked~.widget #i07 .minus-btn .qdm03,
+#i07qdm01:checked~.widget #i07 .plus-btn .qdp00,
+#i07qdm01:checked~.widget #i07 .minus-btn .qdm02,
+#i07qdp00:checked~.widget #i07 .plus-btn .qdp01,
+#i07qdp00:checked~.widget #i07 .minus-btn .qdm01,
+#i07qdp01:checked~.widget #i07 .plus-btn .qdp02,
+#i07qdp01:checked~.widget #i07 .minus-btn .qdp00,
+#i07qdp02:checked~.widget #i07 .plus-btn .qdp03,
+#i07qdp02:checked~.widget #i07 .minus-btn .qdp01,
+#i07qdp03:checked~.widget #i07 .plus-btn .qdp04,
+#i07qdp03:checked~.widget #i07 .minus-btn .qdp02,
+#i07qdp04:checked~.widget #i07 .plus-btn .qdp05,
+#i07qdp04:checked~.widget #i07 .minus-btn .qdp03,
+#i07qdp05:checked~.widget #i07 .plus-btn .qdp06,
+#i07qdp05:checked~.widget #i07 .minus-btn .qdp04,
+#i07qdp06:checked~.widget #i07 .plus-btn .qdp07,
+#i07qdp06:checked~.widget #i07 .minus-btn .qdp05,
+#i07qdp07:checked~.widget #i07 .plus-btn .qdp08,
+#i07qdp07:checked~.widget #i07 .minus-btn .qdp06,
+#i07qdp08:checked~.widget #i07 .plus-btn .qdp09,
+#i07qdp08:checked~.widget #i07 .minus-btn .qdp07,
+#i07qdp09:checked~.widget #i07 .plus-btn .qdp10,
+#i07qdp09:checked~.widget #i07 .minus-btn .qdp08,
+#i07qdp10:checked~.widget #i07 .minus-btn .qdp09,
+#i08qdm10:checked~.widget #i08 .plus-btn .qdm09,
+#i08qdm09:checked~.widget #i08 .plus-btn .qdm08,
+#i08qdm09:checked~.widget #i08 .minus-btn .qdm10,
+#i08qdm08:checked~.widget #i08 .plus-btn .qdm07,
+#i08qdm08:checked~.widget #i08 .minus-btn .qdm09,
+#i08qdm07:checked~.widget #i08 .plus-btn .qdm06,
+#i08qdm07:checked~.widget #i08 .minus-btn .qdm08,
+#i08qdm06:checked~.widget #i08 .plus-btn .qdm05,
+#i08qdm06:checked~.widget #i08 .minus-btn .qdm07,
+#i08qdm05:checked~.widget #i08 .plus-btn .qdm04,
+#i08qdm05:checked~.widget #i08 .minus-btn .qdm06,
+#i08qdm04:checked~.widget #i08 .plus-btn .qdm03,
+#i08qdm04:checked~.widget #i08 .minus-btn .qdm05,
+#i08qdm03:checked~.widget #i08 .plus-btn .qdm02,
+#i08qdm03:checked~.widget #i08 .minus-btn .qdm04,
+#i08qdm02:checked~.widget #i08 .plus-btn .qdm01,
+#i08qdm02:checked~.widget #i08 .minus-btn .qdm03,
+#i08qdm01:checked~.widget #i08 .plus-btn .qdp00,
+#i08qdm01:checked~.widget #i08 .minus-btn .qdm02,
+#i08qdp00:checked~.widget #i08 .plus-btn .qdp01,
+#i08qdp00:checked~.widget #i08 .minus-btn .qdm01,
+#i08qdp01:checked~.widget #i08 .plus-btn .qdp02,
+#i08qdp01:checked~.widget #i08 .minus-btn .qdp00,
+#i08qdp02:checked~.widget #i08 .plus-btn .qdp03,
+#i08qdp02:checked~.widget #i08 .minus-btn .qdp01,
+#i08qdp03:checked~.widget #i08 .plus-btn .qdp04,
+#i08qdp03:checked~.widget #i08 .minus-btn .qdp02,
+#i08qdp04:checked~.widget #i08 .plus-btn .qdp05,
+#i08qdp04:checked~.widget #i08 .minus-btn .qdp03,
+#i08qdp05:checked~.widget #i08 .plus-btn .qdp06,
+#i08qdp05:checked~.widget #i08 .minus-btn .qdp04,
+#i08qdp06:checked~.widget #i08 .plus-btn .qdp07,
+#i08qdp06:checked~.widget #i08 .minus-btn .qdp05,
+#i08qdp07:checked~.widget #i08 .plus-btn .qdp08,
+#i08qdp07:checked~.widget #i08 .minus-btn .qdp06,
+#i08qdp08:checked~.widget #i08 .plus-btn .qdp09,
+#i08qdp08:checked~.widget #i08 .minus-btn .qdp07,
+#i08qdp09:checked~.widget #i08 .plus-btn .qdp10,
+#i08qdp09:checked~.widget #i08 .minus-btn .qdp08,
+#i08qdp10:checked~.widget #i08 .minus-btn .qdp09,
+#i09qdm10:checked~.widget #i09 .plus-btn .qdm09,
+#i09qdm09:checked~.widget #i09 .plus-btn .qdm08,
+#i09qdm09:checked~.widget #i09 .minus-btn .qdm10,
+#i09qdm08:checked~.widget #i09 .plus-btn .qdm07,
+#i09qdm08:checked~.widget #i09 .minus-btn .qdm09,
+#i09qdm07:checked~.widget #i09 .plus-btn .qdm06,
+#i09qdm07:checked~.widget #i09 .minus-btn .qdm08,
+#i09qdm06:checked~.widget #i09 .plus-btn .qdm05,
+#i09qdm06:checked~.widget #i09 .minus-btn .qdm07,
+#i09qdm05:checked~.widget #i09 .plus-btn .qdm04,
+#i09qdm05:checked~.widget #i09 .minus-btn .qdm06,
+#i09qdm04:checked~.widget #i09 .plus-btn .qdm03,
+#i09qdm04:checked~.widget #i09 .minus-btn .qdm05,
+#i09qdm03:checked~.widget #i09 .plus-btn .qdm02,
+#i09qdm03:checked~.widget #i09 .minus-btn .qdm04,
+#i09qdm02:checked~.widget #i09 .plus-btn .qdm01,
+#i09qdm02:checked~.widget #i09 .minus-btn .qdm03,
+#i09qdm01:checked~.widget #i09 .plus-btn .qdp00,
+#i09qdm01:checked~.widget #i09 .minus-btn .qdm02,
+#i09qdp00:checked~.widget #i09 .plus-btn .qdp01,
+#i09qdp00:checked~.widget #i09 .minus-btn .qdm01,
+#i09qdp01:checked~.widget #i09 .plus-btn .qdp02,
+#i09qdp01:checked~.widget #i09 .minus-btn .qdp00,
+#i09qdp02:checked~.widget #i09 .plus-btn .qdp03,
+#i09qdp02:checked~.widget #i09 .minus-btn .qdp01,
+#i09qdp03:checked~.widget #i09 .plus-btn .qdp04,
+#i09qdp03:checked~.widget #i09 .minus-btn .qdp02,
+#i09qdp04:checked~.widget #i09 .plus-btn .qdp05,
+#i09qdp04:checked~.widget #i09 .minus-btn .qdp03,
+#i09qdp05:checked~.widget #i09 .plus-btn .qdp06,
+#i09qdp05:checked~.widget #i09 .minus-btn .qdp04,
+#i09qdp06:checked~.widget #i09 .plus-btn .qdp07,
+#i09qdp06:checked~.widget #i09 .minus-btn .qdp05,
+#i09qdp07:checked~.widget #i09 .plus-btn .qdp08,
+#i09qdp07:checked~.widget #i09 .minus-btn .qdp06,
+#i09qdp08:checked~.widget #i09 .plus-btn .qdp09,
+#i09qdp08:checked~.widget #i09 .minus-btn .qdp07,
+#i09qdp09:checked~.widget #i09 .plus-btn .qdp10,
+#i09qdp09:checked~.widget #i09 .minus-btn .qdp08,
+#i09qdp10:checked~.widget #i09 .minus-btn .qdp09,
+#i10qdm10:checked~.widget #i10 .plus-btn .qdm09,
+#i10qdm09:checked~.widget #i10 .plus-btn .qdm08,
+#i10qdm09:checked~.widget #i10 .minus-btn .qdm10,
+#i10qdm08:checked~.widget #i10 .plus-btn .qdm07,
+#i10qdm08:checked~.widget #i10 .minus-btn .qdm09,
+#i10qdm07:checked~.widget #i10 .plus-btn .qdm06,
+#i10qdm07:checked~.widget #i10 .minus-btn .qdm08,
+#i10qdm06:checked~.widget #i10 .plus-btn .qdm05,
+#i10qdm06:checked~.widget #i10 .minus-btn .qdm07,
+#i10qdm05:checked~.widget #i10 .plus-btn .qdm04,
+#i10qdm05:checked~.widget #i10 .minus-btn .qdm06,
+#i10qdm04:checked~.widget #i10 .plus-btn .qdm03,
+#i10qdm04:checked~.widget #i10 .minus-btn .qdm05,
+#i10qdm03:checked~.widget #i10 .plus-btn .qdm02,
+#i10qdm03:checked~.widget #i10 .minus-btn .qdm04,
+#i10qdm02:checked~.widget #i10 .plus-btn .qdm01,
+#i10qdm02:checked~.widget #i10 .minus-btn .qdm03,
+#i10qdm01:checked~.widget #i10 .plus-btn .qdp00,
+#i10qdm01:checked~.widget #i10 .minus-btn .qdm02,
+#i10qdp00:checked~.widget #i10 .plus-btn .qdp01,
+#i10qdp00:checked~.widget #i10 .minus-btn .qdm01,
+#i10qdp01:checked~.widget #i10 .plus-btn .qdp02,
+#i10qdp01:checked~.widget #i10 .minus-btn .qdp00,
+#i10qdp02:checked~.widget #i10 .plus-btn .qdp03,
+#i10qdp02:checked~.widget #i10 .minus-btn .qdp01,
+#i10qdp03:checked~.widget #i10 .plus-btn .qdp04,
+#i10qdp03:checked~.widget #i10 .minus-btn .qdp02,
+#i10qdp04:checked~.widget #i10 .plus-btn .qdp05,
+#i10qdp04:checked~.widget #i10 .minus-btn .qdp03,
+#i10qdp05:checked~.widget #i10 .plus-btn .qdp06,
+#i10qdp05:checked~.widget #i10 .minus-btn .qdp04,
+#i10qdp06:checked~.widget #i10 .plus-btn .qdp07,
+#i10qdp06:checked~.widget #i10 .minus-btn .qdp05,
+#i10qdp07:checked~.widget #i10 .plus-btn .qdp08,
+#i10qdp07:checked~.widget #i10 .minus-btn .qdp06,
+#i10qdp08:checked~.widget #i10 .plus-btn .qdp09,
+#i10qdp08:checked~.widget #i10 .minus-btn .qdp07,
+#i10qdp09:checked~.widget #i10 .plus-btn .qdp10,
+#i10qdp09:checked~.widget #i10 .minus-btn .qdp08,
+#i10qdp10:checked~.widget #i10 .minus-btn .qdp09 {
+    display: flex;
+}
+
+/* ... items++ */
+
+.number:before {
+    content: var(--quantity);
+}
+
+.remove {
+    font-size: 12px;
+    font-weight: 300;
+    color: #AAABBBFF;
+    width: fit-content;
+    cursor: pointer;
+    padding-top: 4px;
+}
+
+.remove:hover {
+    color: #000000;
+}
+
+[id^="i01qd-remove"]:checked~.widget #i01,
+[id^="i02qd-remove"]:checked~.widget #i02,
+[id^="i03qd-remove"]:checked~.widget #i03,
+[id^="i04qd-remove"]:checked~.widget #i04,
+[id^="i05qd-remove"]:checked~.widget #i05,
+[id^="i06qd-remove"]:checked~.widget #i06,
+[id^="i07qd-remove"]:checked~.widget #i07,
+[id^="i08qd-remove"]:checked~.widget #i08,
+[id^="i09qd-remove"]:checked~.widget #i09,
+[id^="i10qd-remove"]:checked~.widget #i10 {
+    display: none;
+}
+
+/* ... items++ */
+
+#upsell {
+    display: none;
+}
+
+/* Upsell Items */
+#upsell .list {
+    display: flex;
+    overflow-x: scroll;
+    max-width: min(calc(100vw - 18px * 4), calc(600px - 18px * 2));
+}
+
+#upsell .item {
+    min-height: 220px;
+    width: 150px;
+    min-width: 150px;
+    border-radius: 8px;
+    margin-right: 12px;
+    margin-bottom: 14px;
+    padding: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 280px;
+}
+
+label.add-to-cart {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    background-color: #e8f0fe;
+    border-radius: 8px;
+    color: #1A73E8;
+    font-size: 14px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: .15px;
+    cursor: pointer;
+    height: 40px;
+    width: 100%;
+    margin-left: auto
+}
+
+.add-to-cart .icon {
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+    background-size: 18px 18px;
+    background-image: url(https://i.postimg.cc/WbbsM4Mp/icons8-add-shopping-cart-48-1.png);
+    background-repeat: no-repeat
+}
+
+#upsell .title {
+    text-align: start;
+    font-size: 14px;
+    font-weight: 300;
+    color: #444444;
+    text-transform: capitalize;
+    padding-bottom: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    height: 48px;
+    overflow: hidden;
+}
+
+.individual.discounted-price:before {
+    content: var(--discounted-price);
+}
