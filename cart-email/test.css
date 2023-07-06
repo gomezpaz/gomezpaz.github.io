@@ -1,0 +1,1515 @@
+/* ---- ITEM 1 ---- */
+
+.widget #i01 {
+    --title: 'club. Graphite Pickleball Paddle';
+  }
+  
+  /* LINE ITEM */
+  #i01qd-remove:not(:checked)~.widget #cart #i01 {
+    display: block;
+  }
+  
+  /* OPTIONS */
+  .widget #i01 .o01 {
+    --option: 'Color';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i01 .o01 .v01 {
+    --value: 'Ace';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i01 .o01 .v02 {
+    --value: 'Birds of Paradise';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i01 .o01 .v03 {
+    --value: 'Bread';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i01 .o01 .v04 {
+    --value: 'Phoenix';
+    --show: var(--TRUE);
+  }
+  
+  /* OPTIONS */
+  .widget #i01 .o02 {
+    --option: 'Material';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i01 .o02 .v01 {
+    --value: 'Rubber';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i01 .o02 .v02 {
+    --value: 'Plastic';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i01 .o02 .v03 {
+    --value: 'Wood';
+    --show: var(--TRUE);
+  }
+  
+  /* OPTIONS */
+  .widget #i01 .o03 {
+    --option: 'Size';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i01 .o03 .v01 {
+    --value: 'Medium';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i01 .o03 .v02 {
+    --value: 'Small';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i01 .o03 .v03 {
+    --value: 'Large';
+    --show: var(--TRUE);
+  }
+  
+  /* ---- IMAGES CAROUSEL ---- */
+  #i01img01:checked~.widget #i01 .image-carousel .image {
+    content: var(--img01);
+  }
+  
+  /* ---- VARIANTS ---- */
+  [id^='i01o01v01']:checked~[id^='i01o02v01']:checked~[id^='i01o03v02']:checked~.widget {
+    --i01price: 55.0;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v01']:checked~[id^='i01o03v02']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$55.0';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/AceBack.webp?v=1679000602');
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v01']:checked~[id^='i01o03v02']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v01']:checked~[id^='i01o03v01']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v01']:checked~[id^='i01o03v01']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/AceBackAlt.webp?v=1679000613');
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v01']:checked~[id^='i01o03v01']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v01']:checked~[id^='i01o03v03']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v01']:checked~[id^='i01o03v03']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/AceFront.webp?v=1679000617');
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v01']:checked~[id^='i01o03v03']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v02']:checked~[id^='i01o03v02']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v02']:checked~[id^='i01o03v02']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/AceBackAlt.webp?v=1679000613');
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v02']:checked~[id^='i01o03v02']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v02']:checked~[id^='i01o03v01']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v02']:checked~[id^='i01o03v01']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/AceBack.webp?v=1679000602');
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v02']:checked~[id^='i01o03v01']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v02']:checked~[id^='i01o03v03']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v02']:checked~[id^='i01o03v03']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/AceBackAlt.webp?v=1679000613');
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v02']:checked~[id^='i01o03v03']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v03']:checked~[id^='i01o03v02']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v03']:checked~[id^='i01o03v02']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/AceFront.webp?v=1679000617');
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v03']:checked~[id^='i01o03v02']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v03']:checked~[id^='i01o03v01']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v03']:checked~[id^='i01o03v01']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/AceFrontAlt.webp?v=1679000623');
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v03']:checked~[id^='i01o03v01']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v03']:checked~[id^='i01o03v03']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v03']:checked~[id^='i01o03v03']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/AceFront.webp?v=1679000617');
+  }
+  
+  [id^='i01o01v01']:checked~[id^='i01o02v03']:checked~[id^='i01o03v03']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v01']:checked~[id^='i01o03v02']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v01']:checked~[id^='i01o03v02']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BoPFront.webp?v=1679000690');
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v01']:checked~[id^='i01o03v02']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v01']:checked~[id^='i01o03v01']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v01']:checked~[id^='i01o03v01']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BoPBack.webp?v=1679000695');
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v01']:checked~[id^='i01o03v01']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v01']:checked~[id^='i01o03v03']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v01']:checked~[id^='i01o03v03']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BoPFront.webp?v=1679000690');
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v01']:checked~[id^='i01o03v03']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v02']:checked~[id^='i01o03v02']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v02']:checked~[id^='i01o03v02']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BoPBack.webp?v=1679000695');
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v02']:checked~[id^='i01o03v02']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v02']:checked~[id^='i01o03v01']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v02']:checked~[id^='i01o03v01']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BoPBackAlt.webp?v=1679000698');
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v02']:checked~[id^='i01o03v01']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v02']:checked~[id^='i01o03v03']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v02']:checked~[id^='i01o03v03']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BoPBack.webp?v=1679000695');
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v02']:checked~[id^='i01o03v03']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v03']:checked~[id^='i01o03v02']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v03']:checked~[id^='i01o03v02']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BoPFrontAlt.webp?v=1679000701');
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v03']:checked~[id^='i01o03v02']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v03']:checked~[id^='i01o03v01']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v03']:checked~[id^='i01o03v01']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BoPBack.webp?v=1679000695');
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v03']:checked~[id^='i01o03v01']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v03']:checked~[id^='i01o03v03']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v03']:checked~[id^='i01o03v03']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BoPFront.webp?v=1679000690');
+  }
+  
+  [id^='i01o01v02']:checked~[id^='i01o02v03']:checked~[id^='i01o03v03']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v01']:checked~[id^='i01o03v02']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v01']:checked~[id^='i01o03v02']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BreadFrontAlt.webp?v=1679000736');
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v01']:checked~[id^='i01o03v02']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v01']:checked~[id^='i01o03v01']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v01']:checked~[id^='i01o03v01']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BreadFront.webp?v=1679000733');
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v01']:checked~[id^='i01o03v01']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v01']:checked~[id^='i01o03v03']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v01']:checked~[id^='i01o03v03']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BreadFrontAlt.webp?v=1679000736');
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v01']:checked~[id^='i01o03v03']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v02']:checked~[id^='i01o03v02']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v02']:checked~[id^='i01o03v02']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BreadBack.webp?v=1679000727');
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v02']:checked~[id^='i01o03v02']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v02']:checked~[id^='i01o03v01']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v02']:checked~[id^='i01o03v01']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BreadBack.webp?v=1679000727');
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v02']:checked~[id^='i01o03v01']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v02']:checked~[id^='i01o03v03']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v02']:checked~[id^='i01o03v03']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BreadBackAlt.webp?v=1679000731');
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v02']:checked~[id^='i01o03v03']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v03']:checked~[id^='i01o03v02']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v03']:checked~[id^='i01o03v02']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BreadFront.webp?v=1679000733');
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v03']:checked~[id^='i01o03v02']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v03']:checked~[id^='i01o03v01']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v03']:checked~[id^='i01o03v01']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BreadFront.webp?v=1679000733');
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v03']:checked~[id^='i01o03v01']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v03']:checked~[id^='i01o03v03']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v03']:checked~[id^='i01o03v03']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/BreadBackAlt.webp?v=1679000731');
+  }
+  
+  [id^='i01o01v03']:checked~[id^='i01o02v03']:checked~[id^='i01o03v03']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v01']:checked~[id^='i01o03v02']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v01']:checked~[id^='i01o03v02']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/PhoenixBack.webp?v=1679000749');
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v01']:checked~[id^='i01o03v02']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v01']:checked~[id^='i01o03v01']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v01']:checked~[id^='i01o03v01']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/PhoenixFrontAlt.webp?v=1679000763');
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v01']:checked~[id^='i01o03v01']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v01']:checked~[id^='i01o03v03']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v01']:checked~[id^='i01o03v03']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/PhoenixBackAlt.webp?v=1679000755');
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v01']:checked~[id^='i01o03v03']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v02']:checked~[id^='i01o03v02']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v02']:checked~[id^='i01o03v02']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/PhoenixBackAlt.webp?v=1679000755');
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v02']:checked~[id^='i01o03v02']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v02']:checked~[id^='i01o03v01']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v02']:checked~[id^='i01o03v01']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/PhoenixFront.webp?v=1679000760');
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v02']:checked~[id^='i01o03v01']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v02']:checked~[id^='i01o03v03']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v02']:checked~[id^='i01o03v03']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/PhoenixFrontAlt.webp?v=1679000763');
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v02']:checked~[id^='i01o03v03']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v03']:checked~[id^='i01o03v02']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v03']:checked~[id^='i01o03v02']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/PhoenixFrontAlt.webp?v=1679000763');
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v03']:checked~[id^='i01o03v02']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v03']:checked~[id^='i01o03v01']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v03']:checked~[id^='i01o03v01']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/PhoenixBackAlt.webp?v=1679000755');
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v03']:checked~[id^='i01o03v01']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v03']:checked~[id^='i01o03v03']:checked~.widget {
+    --i01price: 54.99;
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v03']:checked~[id^='i01o03v03']:checked~.widget #i01 {
+    --original-price: '$54.99';
+    --discounted-price: '$54.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/PhoenixBack.webp?v=1679000749');
+  }
+  
+  [id^='i01o01v04']:checked~[id^='i01o02v03']:checked~[id^='i01o03v03']:checked~#i01img01:checked~.widget #i01 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  /* ---- OUT OF STOCK ---- */
+  [id^='i01o02v01']:checked~[id^='i01o03v02']:checked~.widget #i01 .o01 .v01,
+  [id^='i01o01v01']:checked~[id^='i01o03v02']:checked~.widget #i01 .o02 .v01,
+  [id^='i01o01v01']:checked~[id^='i01o02v01']:checked~.widget #i01 .o03 .v02 {
+    --grayed-out: var(--TRUE);
+  }
+  
+  /* ---- QUANTITY ---- */
+  #i01qdp00:checked~.widget #i01 .quantity .minus-btn label {
+    display:none;
+  }
+  
+  #i01qdp00:checked~.widget {
+    --i01quantity: 1;
+  }
+  
+  #i01qdp00:checked~.widget #i01{
+    --quantity: '1';
+  }
+  
+  #i01qdp01:checked~.widget {
+    --i01quantity: 2;
+  }
+  
+  #i01qdp01:checked~.widget #i01{
+    --quantity: '2';
+  }
+  
+  #i01qdp02:checked~.widget {
+    --i01quantity: 3;
+  }
+  
+  #i01qdp02:checked~.widget #i01{
+    --quantity: '3';
+  }
+  
+  #i01qdp03:checked~.widget {
+    --i01quantity: 4;
+  }
+  
+  #i01qdp03:checked~.widget #i01{
+    --quantity: '4';
+  }
+  
+  #i01qdp04:checked~.widget {
+    --i01quantity: 5;
+  }
+  
+  #i01qdp04:checked~.widget #i01{
+    --quantity: '5';
+  }
+  
+  #i01qdp05:checked~.widget {
+    --i01quantity: 6;
+  }
+  
+  #i01qdp05:checked~.widget #i01{
+    --quantity: '6';
+  }
+  
+  #i01qdp06:checked~.widget {
+    --i01quantity: 7;
+  }
+  
+  #i01qdp06:checked~.widget #i01{
+    --quantity: '7';
+  }
+  
+  #i01qdp07:checked~.widget {
+    --i01quantity: 8;
+  }
+  
+  #i01qdp07:checked~.widget #i01{
+    --quantity: '8';
+  }
+  
+  #i01qdp08:checked~.widget {
+    --i01quantity: 9;
+  }
+  
+  #i01qdp08:checked~.widget #i01{
+    --quantity: '9';
+  }
+  
+  #i01qdp09:checked~.widget {
+    --i01quantity: 10;
+  }
+  
+  #i01qdp09:checked~.widget #i01{
+    --quantity: '10';
+  }
+  
+  #i01qdp09:checked~.widget #i01 .quantity .plus-btn label {
+    display:none;
+  }
+  
+  /* ---- ANALYTICS ---- */
+  #i01o01v01-open:checked~img.i01o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o01v01-open');
+  }
+  
+  #i01o01v01-close:checked~img.i01o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o01v01-close');
+  }
+  
+  #i01o01v02-open:checked~img.i01o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o01v02-open');
+  }
+  
+  #i01o01v02-close:checked~img.i01o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o01v02-close');
+  }
+  
+  #i01o01v03-open:checked~img.i01o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o01v03-open');
+  }
+  
+  #i01o01v03-close:checked~img.i01o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o01v03-close');
+  }
+  
+  #i01o01v04-open:checked~img.i01o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o01v04-open');
+  }
+  
+  #i01o01v04-close:checked~img.i01o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o01v04-close');
+  }
+  
+  #i01o02v01-open:checked~img.i01o02 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o02v01-open');
+  }
+  
+  #i01o02v01-close:checked~img.i01o02 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o02v01-close');
+  }
+  
+  #i01o02v02-open:checked~img.i01o02 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o02v02-open');
+  }
+  
+  #i01o02v02-close:checked~img.i01o02 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o02v02-close');
+  }
+  
+  #i01o02v03-open:checked~img.i01o02 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o02v03-open');
+  }
+  
+  #i01o02v03-close:checked~img.i01o02 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o02v03-close');
+  }
+  
+  #i01o03v01-open:checked~img.i01o03 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o03v01-open');
+  }
+  
+  #i01o03v01-close:checked~img.i01o03 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o03v01-close');
+  }
+  
+  #i01o03v02-open:checked~img.i01o03 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o03v02-open');
+  }
+  
+  #i01o03v02-close:checked~img.i01o03 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o03v02-close');
+  }
+  
+  #i01o03v03-open:checked~img.i01o03 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o03v03-open');
+  }
+  
+  #i01o03v03-close:checked~img.i01o03 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01o03v03-close');
+  }
+  
+  #i01qdp00:checked~img.i01qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01qdp00');
+  }
+  
+  #i01qdp01:checked~img.i01qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01qdp01');
+  }
+  
+  #i01qdp02:checked~img.i01qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01qdp02');
+  }
+  
+  #i01qdp03:checked~img.i01qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01qdp03');
+  }
+  
+  #i01qdp04:checked~img.i01qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01qdp04');
+  }
+  
+  #i01qdp05:checked~img.i01qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01qdp05');
+  }
+  
+  #i01qdp06:checked~img.i01qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01qdp06');
+  }
+  
+  #i01qdp07:checked~img.i01qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01qdp07');
+  }
+  
+  #i01qdp08:checked~img.i01qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01qdp08');
+  }
+  
+  #i01qdp09:checked~img.i01qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i01qdp09');
+  }
+  
+  /* ---- ITEM 2 ---- */
+  
+  .widget #i02 {
+    --title: 'Conversion-enhancing Lava Lamp';
+  }
+  
+  /* LINE ITEM */
+  #i02qd-remove:not(:checked)~.widget #cart #i02 {
+    display: block;
+  }
+  
+  /* OPTIONS */
+  .widget #i02 .o01 {
+    --option: 'Color';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i02 .o01 .v01 {
+    --value: 'Zaymo Blue';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i02 .o01 .v02 {
+    --value: 'Zaymo Orange';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i02 .o01 .v03 {
+    --value: 'Zaymo Purple';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i02 .o01 .v04 {
+    --value: 'Zaymo Pink';
+    --show: var(--TRUE);
+  }
+  
+  /* ---- IMAGES CAROUSEL ---- */
+  #i02img01:checked~.widget #i02 .image-carousel .image {
+    content: var(--img01);
+  }
+  
+  #i02img02:checked~.widget #i02 .image-carousel .image {
+    content: var(--img02);
+  }
+  
+  /* ---- VARIANTS ---- */
+  [id^='i02o01v01']:checked~.widget {
+    --i02price: 0.0;
+  }
+  
+  [id^='i02o01v01']:checked~.widget #i02 {
+    --original-price: '';
+    --discounted-price: '$0.0';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/files/LavaLampBlue_White.svg?v=1688426164');
+    --img02: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/files/LavaLampBlue.svg?v=1688426227');
+  }
+  
+  [id^='i02o01v01']:checked~#i02img02:checked~.widget #i02 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i02o01v02']:checked~.widget {
+    --i02price: 0.0;
+  }
+  
+  [id^='i02o01v02']:checked~.widget #i02 {
+    --original-price: '';
+    --discounted-price: '$0.0';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/files/LavaLampOrange_White.svg?v=1688426126');
+  }
+  
+  [id^='i02o01v02']:checked~#i02img01:checked~.widget #i02 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i02o01v02']:checked~#i02img02:checked~.widget #i02 .image-carousel label {
+    display: none;
+  }
+  
+  [id^='i02o01v02']:checked~#i02img02:checked~.widget #i02 .image-carousel .image {
+    content: var(--img01);
+  }
+  
+  [id^='i02o01v03']:checked~.widget {
+    --i02price: 0.0;
+  }
+  
+  [id^='i02o01v03']:checked~.widget #i02 {
+    --original-price: '';
+    --discounted-price: '$0.0';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/files/LavaLampPurple_White.svg?v=1688426138');
+  }
+  
+  [id^='i02o01v03']:checked~#i02img01:checked~.widget #i02 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i02o01v03']:checked~#i02img02:checked~.widget #i02 .image-carousel label {
+    display: none;
+  }
+  
+  [id^='i02o01v03']:checked~#i02img02:checked~.widget #i02 .image-carousel .image {
+    content: var(--img01);
+  }
+  
+  [id^='i02o01v04']:checked~.widget {
+    --i02price: 0.0;
+  }
+  
+  [id^='i02o01v04']:checked~.widget #i02 {
+    --original-price: '';
+    --discounted-price: '$0.0';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/files/LavaLampPink_White.svg?v=1688426157');
+  }
+  
+  [id^='i02o01v04']:checked~#i02img01:checked~.widget #i02 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i02o01v04']:checked~#i02img02:checked~.widget #i02 .image-carousel label {
+    display: none;
+  }
+  
+  [id^='i02o01v04']:checked~#i02img02:checked~.widget #i02 .image-carousel .image {
+    content: var(--img01);
+  }
+  
+  /* ---- QUANTITY ---- */
+  #i02qdp00:checked~.widget #i02 .quantity .minus-btn label {
+    display:none;
+  }
+  
+  #i02qdp00:checked~.widget {
+    --i02quantity: 1;
+  }
+  
+  #i02qdp00:checked~.widget #i02{
+    --quantity: '1';
+  }
+  
+  #i02qdp01:checked~.widget {
+    --i02quantity: 2;
+  }
+  
+  #i02qdp01:checked~.widget #i02{
+    --quantity: '2';
+  }
+  
+  #i02qdp02:checked~.widget {
+    --i02quantity: 3;
+  }
+  
+  #i02qdp02:checked~.widget #i02{
+    --quantity: '3';
+  }
+  
+  #i02qdp03:checked~.widget {
+    --i02quantity: 4;
+  }
+  
+  #i02qdp03:checked~.widget #i02{
+    --quantity: '4';
+  }
+  
+  #i02qdp04:checked~.widget {
+    --i02quantity: 5;
+  }
+  
+  #i02qdp04:checked~.widget #i02{
+    --quantity: '5';
+  }
+  
+  #i02qdp05:checked~.widget {
+    --i02quantity: 6;
+  }
+  
+  #i02qdp05:checked~.widget #i02{
+    --quantity: '6';
+  }
+  
+  #i02qdp06:checked~.widget {
+    --i02quantity: 7;
+  }
+  
+  #i02qdp06:checked~.widget #i02{
+    --quantity: '7';
+  }
+  
+  #i02qdp07:checked~.widget {
+    --i02quantity: 8;
+  }
+  
+  #i02qdp07:checked~.widget #i02{
+    --quantity: '8';
+  }
+  
+  #i02qdp08:checked~.widget {
+    --i02quantity: 9;
+  }
+  
+  #i02qdp08:checked~.widget #i02{
+    --quantity: '9';
+  }
+  
+  #i02qdp09:checked~.widget {
+    --i02quantity: 10;
+  }
+  
+  #i02qdp09:checked~.widget #i02{
+    --quantity: '10';
+  }
+  
+  #i02qdp09:checked~.widget #i02 .quantity .plus-btn label {
+    display:none;
+  }
+  
+  /* ---- ANALYTICS ---- */
+  #i02o01v01-open:checked~img.i02o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02o01v01-open');
+  }
+  
+  #i02o01v01-close:checked~img.i02o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02o01v01-close');
+  }
+  
+  #i02o01v02-open:checked~img.i02o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02o01v02-open');
+  }
+  
+  #i02o01v02-close:checked~img.i02o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02o01v02-close');
+  }
+  
+  #i02o01v03-open:checked~img.i02o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02o01v03-open');
+  }
+  
+  #i02o01v03-close:checked~img.i02o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02o01v03-close');
+  }
+  
+  #i02o01v04-open:checked~img.i02o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02o01v04-open');
+  }
+  
+  #i02o01v04-close:checked~img.i02o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02o01v04-close');
+  }
+  
+  #i02qdp00:checked~img.i02qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02qdp00');
+  }
+  
+  #i02qdp01:checked~img.i02qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02qdp01');
+  }
+  
+  #i02qdp02:checked~img.i02qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02qdp02');
+  }
+  
+  #i02qdp03:checked~img.i02qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02qdp03');
+  }
+  
+  #i02qdp04:checked~img.i02qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02qdp04');
+  }
+  
+  #i02qdp05:checked~img.i02qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02qdp05');
+  }
+  
+  #i02qdp06:checked~img.i02qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02qdp06');
+  }
+  
+  #i02qdp07:checked~img.i02qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02qdp07');
+  }
+  
+  #i02qdp08:checked~img.i02qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02qdp08');
+  }
+  
+  #i02qdp09:checked~img.i02qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i02qdp09');
+  }
+  
+  /* ---- ITEM 3 ---- */
+  
+  .widget #i03 {
+    --title: 'Zaymo T-shirt';
+  }
+  
+  /* UPSELL ITEM */
+  #i03qd-remove:not(:checked)~.widget #cart #i03 {
+    display: block;
+  }
+  
+  #i03qdp00:checked~.widget #cart #i03 {
+    display:none;
+  }
+  
+  #i03qdp00:checked~.widget #upsell {
+    display:table;
+  }
+  
+  #i03qdp00:checked~.widget #upsell #i03 {
+    display:flex;
+  }
+  
+  /* OPTIONS */
+  .widget #i03 .o01 {
+    --option: 'Size';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i03 .o01 .v01 {
+    --value: 'Small';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i03 .o01 .v02 {
+    --value: 'Medium';
+    --show: var(--TRUE);
+  }
+  
+  .widget #i03 .o01 .v03 {
+    --value: 'Large';
+    --show: var(--TRUE);
+  }
+  
+  /* ---- IMAGES CAROUSEL ---- */
+  #i03img01:checked~.widget #i03 .image-carousel .image {
+    content: var(--img01);
+  }
+  
+  /* ---- VARIANTS ---- */
+  [id^='i03o01v01']:checked~.widget {
+    --i03price: 5.0;
+  }
+  
+  [id^='i03o01v01']:checked~.widget #i03 {
+    --original-price: '';
+    --discounted-price: '$5.0';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/TshirtZaymo.png?v=1674508983');
+  }
+  
+  [id^='i03o01v01']:checked~#i03img01:checked~.widget #i03 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i03o01v02']:checked~.widget {
+    --i03price: 5.0;
+  }
+  
+  [id^='i03o01v02']:checked~.widget #i03 {
+    --original-price: '';
+    --discounted-price: '$5.0';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/TshirtZaymo.png?v=1674508983');
+  }
+  
+  [id^='i03o01v02']:checked~#i03img01:checked~.widget #i03 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  [id^='i03o01v03']:checked~.widget {
+    --i03price: 5.0;
+  }
+  
+  [id^='i03o01v03']:checked~.widget #i03 {
+    --original-price: '';
+    --discounted-price: '$5.0';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/TshirtZaymo.png?v=1674508983');
+  }
+  
+  [id^='i03o01v03']:checked~#i03img01:checked~.widget #i03 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  /* ---- QUANTITY ---- */
+  #i03qdp01:checked~.widget #i03 .quantity .minus-btn label {
+    display:none;
+  }
+  
+  #i03qdp01:checked~.widget {
+    --i03quantity: 1;
+  }
+  
+  #i03qdp01:checked~.widget #i03{
+    --quantity: '1';
+  }
+  
+  #i03qdp02:checked~.widget {
+    --i03quantity: 2;
+  }
+  
+  #i03qdp02:checked~.widget #i03{
+    --quantity: '2';
+  }
+  
+  #i03qdp03:checked~.widget {
+    --i03quantity: 3;
+  }
+  
+  #i03qdp03:checked~.widget #i03{
+    --quantity: '3';
+  }
+  
+  #i03qdp04:checked~.widget {
+    --i03quantity: 4;
+  }
+  
+  #i03qdp04:checked~.widget #i03{
+    --quantity: '4';
+  }
+  
+  #i03qdp05:checked~.widget {
+    --i03quantity: 5;
+  }
+  
+  #i03qdp05:checked~.widget #i03{
+    --quantity: '5';
+  }
+  
+  #i03qdp06:checked~.widget {
+    --i03quantity: 6;
+  }
+  
+  #i03qdp06:checked~.widget #i03{
+    --quantity: '6';
+  }
+  
+  #i03qdp07:checked~.widget {
+    --i03quantity: 7;
+  }
+  
+  #i03qdp07:checked~.widget #i03{
+    --quantity: '7';
+  }
+  
+  #i03qdp08:checked~.widget {
+    --i03quantity: 8;
+  }
+  
+  #i03qdp08:checked~.widget #i03{
+    --quantity: '8';
+  }
+  
+  #i03qdp09:checked~.widget {
+    --i03quantity: 9;
+  }
+  
+  #i03qdp09:checked~.widget #i03{
+    --quantity: '9';
+  }
+  
+  #i03qdp10:checked~.widget {
+    --i03quantity: 10;
+  }
+  
+  #i03qdp10:checked~.widget #i03{
+    --quantity: '10';
+  }
+  
+  #i03qdp10:checked~.widget #i03 .quantity .plus-btn label {
+    display:none;
+  }
+  
+  /* ---- ANALYTICS ---- */
+  #i03o01v01-open:checked~img.i03o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03o01v01-open');
+  }
+  
+  #i03o01v01-close:checked~img.i03o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03o01v01-close');
+  }
+  
+  #i03o01v02-open:checked~img.i03o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03o01v02-open');
+  }
+  
+  #i03o01v02-close:checked~img.i03o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03o01v02-close');
+  }
+  
+  #i03o01v03-open:checked~img.i03o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03o01v03-open');
+  }
+  
+  #i03o01v03-close:checked~img.i03o01 {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03o01v03-close');
+  }
+  
+  #i03qdp01:checked~img.i03qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03qdp01');
+  }
+  
+  #i03qdp02:checked~img.i03qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03qdp02');
+  }
+  
+  #i03qdp03:checked~img.i03qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03qdp03');
+  }
+  
+  #i03qdp04:checked~img.i03qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03qdp04');
+  }
+  
+  #i03qdp05:checked~img.i03qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03qdp05');
+  }
+  
+  #i03qdp06:checked~img.i03qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03qdp06');
+  }
+  
+  #i03qdp07:checked~img.i03qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03qdp07');
+  }
+  
+  #i03qdp08:checked~img.i03qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03qdp08');
+  }
+  
+  #i03qdp09:checked~img.i03qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03qdp09');
+  }
+  
+  #i03qdp10:checked~img.i03qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i03qdp10');
+  }
+  
+  /* ---- ITEM 4 ---- */
+  
+  .widget #i04 {
+    --title: 'Lavabag Hemp Original | Lava Sand Filled Weighted Heating & Cooling Pad';
+  }
+  
+  /* UPSELL ITEM */
+  #i04qd-remove:not(:checked)~.widget #cart #i04 {
+    display: block;
+  }
+  
+  #i04qdp00:checked~.widget #cart #i04 {
+    display:none;
+  }
+  
+  #i04qdp00:checked~.widget #upsell {
+    display:table;
+  }
+  
+  #i04qdp00:checked~.widget #upsell #i04 {
+    display:flex;
+  }
+  
+  /* ---- IMAGES CAROUSEL ---- */
+  #i04img01:checked~.widget #i04 .image-carousel .image {
+    content: var(--img01);
+  }
+  
+  /* ---- VARIANTS ---- */
+  .widget {
+    --i04price: 69.99;
+  }
+  
+  .widget #i04 {
+    --original-price: '$79.99';
+    --discounted-price: '$69.99';
+    --img01: url('https://cdn.shopify.com/s/files/1/0714/4400/5163/products/1_1024x1024_2x_99149f27-1950-4e11-bc2e-eeb29948b12b.webp?v=1679000456');
+  }
+  
+  #i04img01:checked~.widget #i04 .image-carousel .next-btn label {
+    display: none;
+  }
+  
+  /* ---- QUANTITY ---- */
+  #i04qdp01:checked~.widget #i04 .quantity .minus-btn label {
+    display:none;
+  }
+  
+  #i04qdp01:checked~.widget {
+    --i04quantity: 1;
+  }
+  
+  #i04qdp01:checked~.widget #i04{
+    --quantity: '1';
+  }
+  
+  #i04qdp02:checked~.widget {
+    --i04quantity: 2;
+  }
+  
+  #i04qdp02:checked~.widget #i04{
+    --quantity: '2';
+  }
+  
+  #i04qdp03:checked~.widget {
+    --i04quantity: 3;
+  }
+  
+  #i04qdp03:checked~.widget #i04{
+    --quantity: '3';
+  }
+  
+  #i04qdp04:checked~.widget {
+    --i04quantity: 4;
+  }
+  
+  #i04qdp04:checked~.widget #i04{
+    --quantity: '4';
+  }
+  
+  #i04qdp05:checked~.widget {
+    --i04quantity: 5;
+  }
+  
+  #i04qdp05:checked~.widget #i04{
+    --quantity: '5';
+  }
+  
+  #i04qdp06:checked~.widget {
+    --i04quantity: 6;
+  }
+  
+  #i04qdp06:checked~.widget #i04{
+    --quantity: '6';
+  }
+  
+  #i04qdp07:checked~.widget {
+    --i04quantity: 7;
+  }
+  
+  #i04qdp07:checked~.widget #i04{
+    --quantity: '7';
+  }
+  
+  #i04qdp08:checked~.widget {
+    --i04quantity: 8;
+  }
+  
+  #i04qdp08:checked~.widget #i04{
+    --quantity: '8';
+  }
+  
+  #i04qdp09:checked~.widget {
+    --i04quantity: 9;
+  }
+  
+  #i04qdp09:checked~.widget #i04{
+    --quantity: '9';
+  }
+  
+  #i04qdp10:checked~.widget {
+    --i04quantity: 10;
+  }
+  
+  #i04qdp10:checked~.widget #i04{
+    --quantity: '10';
+  }
+  
+  #i04qdp10:checked~.widget #i04 .quantity .plus-btn label {
+    display:none;
+  }
+  
+  /* ---- ANALYTICS ---- */
+  #i04qdp01:checked~img.i04qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i04qdp01');
+  }
+  
+  #i04qdp02:checked~img.i04qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i04qdp02');
+  }
+  
+  #i04qdp03:checked~img.i04qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i04qdp03');
+  }
+  
+  #i04qdp04:checked~img.i04qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i04qdp04');
+  }
+  
+  #i04qdp05:checked~img.i04qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i04qdp05');
+  }
+  
+  #i04qdp06:checked~img.i04qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i04qdp06');
+  }
+  
+  #i04qdp07:checked~img.i04qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i04qdp07');
+  }
+  
+  #i04qdp08:checked~img.i04qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i04qdp08');
+  }
+  
+  #i04qdp09:checked~img.i04qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i04qdp09');
+  }
+  
+  #i04qdp10:checked~img.i04qd {
+    content:url('https://dev.getzaymo.com/v3/stores/71444005163/emails/02debf94f61461ad986b89a3e7b373a0/ios/analytics?&log=i04qdp10');
+  }
+  
