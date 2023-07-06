@@ -1,3 +1,11 @@
+.main-table {
+    max-width: 600px;
+    border-collapse: separate !important;
+    border-radius: 8px;
+    border: 1px solid #AAABBB66;
+    margin: auto;
+}
+
 .zzztypography {
     font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
 }
@@ -40,7 +48,11 @@
     margin-right: 4px;
 }
 
-.tech>img {
+.cart-container {
+    padding: 6px 18px 4px 18px;
+}
+
+.cart-container>img {
     color: #000;
     position: absolute;
 }
