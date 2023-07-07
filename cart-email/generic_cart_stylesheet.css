@@ -1247,7 +1247,7 @@ div.min:hover {
 #upsell .list {
     display: flex;
     overflow-x: scroll;
-    max-width: min(calc(100vw - 18px * 4), calc(600px - 18px * 2));
+    max-width: min(calc(100vw - 10px * 4), calc(600px - 10px * 2));
 }
 
 #upsell .item {
